@@ -20,8 +20,8 @@ sections:
         country: United States
         country_code: US
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'
+        latitude: '37.520123'
+        longitude: '121.354420'
       directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       office_hours:
         - 'Monday 10:00 to 13:00'
@@ -49,7 +49,7 @@ sections:
 
   - block: markdown
     content:
-      title:
+      title: 
       subtitle: ''
       text:
     design:

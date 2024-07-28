@@ -1,9 +1,13 @@
-// Make page header alignment consistent with widget page header alignment
+// 使页面头部对齐与小部件页面头部对齐一致
 .universal-wrapper h1 {
+  // 设置文本对齐方式为居中
   text-align: center;
+  // 设置宽度为80vw
+  width: 100%;
 }
 
-// Center the CTA shortcode button
+// 居中CTA快捷按钮
 .cta-group {
+  // 设置内容对齐方式为居中
   justify-content: center;
 }

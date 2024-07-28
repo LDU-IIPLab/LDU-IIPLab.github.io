@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: 
 date: 2022-10-24
 type: landing
 
@@ -8,14 +8,14 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        # 欢迎来到智能信息处理实验室
       image:
         filename: welcome.jpg
       text: |
         <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+
+        **智能信息处理实验室（Intelligent Information Processing Laboratory）** 建立于20xx，是鲁东大学信息与电气工程学院下属的科研机构。\
+        主要研究方向为轻量级识别、零样本检测、图像检索等方向的研究和应用。
   
   - block: collection
     content:

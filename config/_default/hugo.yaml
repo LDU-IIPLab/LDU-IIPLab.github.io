@@ -1,62 +1,63 @@
-# Configuration of Hugo
-# Guide: https://docs.hugoblox.com/tutorial/
-# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# Hugo配置文件
+# 指南：https://docs.hugoblox.com/tutorial/
+# Hugo文档：https://gohugo.io/getting-started/configuration/#all-configuration-settings
+# 本文件使用YAML语法格式 - 了解更多：https://learnxinyminutes.com/docs/yaml/
 
-title: Wowchemy Research Group # Website name
-baseURL: 'https://example.com/' # Website URL
-
-############################
-## LANGUAGE
-############################
-
-defaultContentLanguage: en
-hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
-removePathAccents: true
+title: 鲁东大学智能信息处理实验室 # 网站名称
+# title: Intelligent Information Processing Laboratory @ LDU # 网站名称
+baseURL: 'https://example.com/' # 网站URL
 
 ############################
-## ADVANCED
+## 语言设置
 ############################
 
-enableGitInfo: false
-summaryLength: 30
-paginate: 10
-enableEmoji: true
-enableRobotsTXT: true
-footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
-permalinks:
-  authors: '/author/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-  publication_types: '/publication-type/:slug/'
-disableAliases: true
-outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
-  section: [HTML, RSS]
-imaging:
-  resampleFilter: lanczos
-  quality: 75
-  anchor: smart
-timeout: 600000
-taxonomies:
-  tag: tags
-  category: categories
-  publication_type: publication_types
-  author: authors
-markup:
-  _merge: deep
-related:
-  threshold: 80
-  includeNewer: true
-  toLower: true
-  indices:
-    - name: tags
-      weight: 100
-    - name: categories
-      weight: 70
-security:
-  _merge: deep
-sitemap:
-  _merge: deep
+defaultContentLanguage: zh # 默认内容语言
+hasCJKLanguage: false # 是否包含CJK语言
+defaultContentLanguageInSubdir: false # 子目录中是否使用默认语言
+removePathAccents: true # 移除路径中的重音符号
+
+############################
+## 高级设置
+############################
+
+enableGitInfo: false # 是否启用Git信息
+summaryLength: 30 # 摘要长度
+paginate: 10 # 分页数量
+enableEmoji: true # 是否启用Emoji
+enableRobotsTXT: true # 是否启用robots.txt
+footnotereturnlinkcontents: <sup>^</sup> # 脚注返回链接内容
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$] # 忽略文件
+permalinks: # 永久链接
+  authors: '/author/:slug/' # 作者
+  tags: '/tag/:slug/' # 标签
+  categories: '/category/:slug/' # 类别
+  publication_types: '/publication-type/:slug/' # 出版类型
+disableAliases: true # 禁用别名
+outputs: # 输出格式
+  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects] # 主页
+  section: [HTML, RSS] # 部分
+imaging: # 图像处理
+  resampleFilter: lanczos # 重采样过滤器
+  quality: 75 # 质量
+  anchor: smart # 锚点
+timeout: 600000 # 超时时间
+taxonomies: # 分类法
+  tag: tags # 标签
+  category: categories # 类别
+  publication_type: publication_types # 出版类型
+  author: authors # 作者
+markup: # 标记
+  _merge: deep # 合并深度
+related: # 相关
+  threshold: 80 # 阈值
+  includeNewer: true # 包含更新的
+  toLower: true # 转换为小写
+  indices: # 索引
+    - name: tags # 标签
+      weight: 100 # 权重
+    - name: categories # 类别
+      weight: 70 # 权重
+security: # 安全
+  _merge: deep # 合并深度
+sitemap: # 站点地图
+  _merge: deep # 合并深度
