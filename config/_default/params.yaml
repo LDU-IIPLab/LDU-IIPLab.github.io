@@ -1,118 +1,118 @@
 # SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# 指南：https://docs.hugoblox.com/tutorial/
+# 文档：https://docs.hugoblox.com/
+# 本文件使用YAML语法格式 - 了解更多：https://learnxinyminutes.com/docs/yaml/
 
-# Appearance
+# 外观
 
 appearance:
-  theme_day: minimal
-  theme_night:
-  font: native
-  font_size: L
+  theme_day: minimal # 白天主题
+  theme_night: # 夜晚主题
+  font: native # 字体
+  font_size: L # 字体大小
 
 # SEO
 
 marketing:
   seo:
-    site_type: Organization
-    local_business_type: ''
-    org_name: ''
-    description: ''
-    twitter: ''
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    google_tag_manager: ''
-    microsoft_clarity: ''
-  verification:
-    google: ''
-    baidu: ''
+    site_type: Organization # 网站类型
+    local_business_type: '' # 本地业务类型
+    org_name: 'Intelligent Information Processing Laboratory' # 组织名称
+    description: 'Intelligent Information Processing Laboratory, Ludong University. 鲁东大学智能信息处理实验室。' # 描述
+    twitter: '' # 推特
+  # analytics:
+  #   google_analytics: '' # 谷歌分析
+  #   baidu_tongji: '' # 百度统计
+  #   google_tag_manager: '' # 谷歌标签管理器
+  #   microsoft_clarity: '' # 微软清晰度
+  # verification:
+  #   google: '' # 谷歌验证
+  #   baidu: '' # 百度验证
 
-# Site header
+# 网站头部
 
 header:
   navbar:
-    enable: true
-    align: r
-    show_logo: true
-    show_language: false
-    show_day_night: true
-    show_search: true
-    highlight_active_link: false
+    enable: true # 启用导航栏
+    align: r # 对齐方式
+    show_logo: true # 显示logo
+    show_language: false # 显示语言
+    show_day_night: true # 显示白天/夜晚模式切换
+    show_search: true # 显示搜索
+    highlight_active_link: true # 高亮激活的链接
 
-# Site footer
+# 网站底部
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© 2023 - {year} Intelligent Information Processing Laboratory, Ludong University.' # 版权信息
     license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+      enable: false # 启用许可证
+      allow_derivatives: false # 允许衍生作品
+      share_alike: true # 共享相同方式
+      allow_commercial: false # 允许商业用途
 
-# Localization
+# 本地化
 
 locale:
-  date_format: '2006/01/02'
-  time_format: '15:04'
-  address_format: zh
+  date_format: '2006/01/02' # 日期格式
+  time_format: '15:04' # 时间格式
+  address_format: zh # 地址格式
 
-# Site features
+# 网站功能
 
 features:
   syntax_highlighter:
-    enable: false
+    enable: true # 启用语法高亮
     extra_languages:
-      - r
-      - latex
+      - r # 额外语言
+      - latex # 额外语言
   math:
-    enable: false
+    enable: true # 启用数学公式
   privacy_pack:
-    enable: false
+    enable: false # 启用隐私包
   repository:
-    url: 'https://github.com/LDU-IIPLab/LDU-IIPLab.github.io'
-    content_dir: content
-    branch: main
+    url: 'https://github.com/LDU-IIPLab/LDU-IIPLab.github.io' # 仓库URL
+    content_dir: content # 内容目录
+    branch: main # 分支
   avatar:
-    gravatar: false
-    shape: circle
+    gravatar: false # 启用Gravatar
+    shape: circle # 头像形状
   comment:
-    provider: ''
+    provider: '' # 评论提供商
     disqus:
-      shortname: ''
-      show_count: true
+      shortname: '' # Disqus短名称
+      show_count: true # 显示计数
     commento:
-      url: ''
+      url: '' # Commento URL
     giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
+      repo: '' # Giscus仓库
+      repo_id: '' # Giscus仓库ID
+      category: '' # Giscus类别
+      category_id: '' # Giscus类别ID
   search:
-    provider: wowchemy
+    provider: wowchemy # 搜索提供商
     algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
+      app_id: '' # Algolia应用ID
+      api_key: '' # Algolia API密钥
+      index_name: '' # Algolia索引名称
+      show_logo: false # 显示Algolia logo
   map:
-    provider: 'mapnik'
-    api_key: ''
-    zoom: 15
+    provider: 'mapnik' # 地图提供商
+    api_key: '' # 地图API密钥
+    zoom: 15 # 地图缩放级别
 
-# Extensions
+# 扩展
 
 extensions:
   decap_cms:
-    branch: main
-    local_backend: false
+    branch: main # 分支
+    local_backend: false # 本地后端
   academicons:
-    enable: true
+    enable: true # 启用Academicons
 
-# Citation style
+# 引用风格
 
 publications:
-  date_format: January 2006
-  citation_style: apa
+  date_format: January 2006 # 日期格式
+  citation_style: apa # 引用风格
