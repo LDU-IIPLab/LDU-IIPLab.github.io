@@ -10,10 +10,12 @@ sections:
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-          - 主要研究员
+          - 教师
           - 研究员
-          - 研究生
-          - 行政人员
+          - 2022级研究生
+          - 2023级研究生
+          - 2024级研究生
+          - 本科生
           - 访问学者
           - 校友
       sort_by: Params.last_name
