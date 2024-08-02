@@ -1,10 +1,10 @@
 ---
 # Display name
-title: 张世杰
+title: Shijie Zhang
 
 # Full Name (for SEO)
-first_name: 世杰
-last_name: 张
+first_name: Shijie
+last_name: Zhang
 
 # Is this the primary user of the site?
 superuser: false
@@ -25,7 +25,7 @@ interests:
 
 education:
   courses:
-    - course: 计算机科学与技术, 工学学士
+    - course: 通信工程, 工学学士
       institution: 鲁东大学
       year: 2023
 
@@ -64,4 +64,4 @@ user_groups:
   - 2023级研究生
 ---
 
-本科毕业于鲁东大学信息与电气工程学院通信工程专业，现就读于鲁东大学信息与电气工程学院计算机科学与计算学硕。
+张世杰，本科毕业于鲁东大学通信工程专业，现就读于鲁东大学计算机科学与技术学硕。

@@ -1,10 +1,10 @@
 ---
 # Display name
-title: 朱相颐
+title: Xiangyi Zhu
 
 # Full Name (for SEO)
-first_name: 相颐
-last_name: 朱
+first_name: Xiangyi
+last_name: Zhu
 
 # Is this the primary user of the site?
 superuser: false
@@ -65,4 +65,4 @@ user_groups:
   - 2024级研究生
 ---
 
-本科毕业于鲁东大学信息与电气工程学院电子信息工程专业，现就读于鲁东大学信息与电气工程学院计算机科学与技术学硕。
+朱相颐，本科毕业于鲁东大学信息与电气工程学院电子信息工程专业，现就读于鲁东大学信息与电气工程学院计算机科学与技术学硕。

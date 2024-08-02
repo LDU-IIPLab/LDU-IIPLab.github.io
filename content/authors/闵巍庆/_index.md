@@ -1,10 +1,10 @@
 ---
 # Display name
-title: 闵巍庆
+title: Weiqing Ming
 
 # Full Name (for SEO)
-first_name: 巍庆
-last_name: 闵
+first_name: Weiqing
+last_name: Ming
 
 # Is this the primary user of the site?
 superuser: false
@@ -74,6 +74,7 @@ highlight_name: true
 user_groups:
   - 研究员
 ---
+闵巍庆
 
 2018年10月 — 今：中国科学院计算技术研究所，智能信息处理重点实验室，副研究员 
 

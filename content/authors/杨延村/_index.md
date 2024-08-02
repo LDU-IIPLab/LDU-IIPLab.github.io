@@ -1,10 +1,10 @@
 ---
 # Display name
-title: 杨延村
+title: Yancun Yang
 
 # Full Name (for SEO)
-first_name: 延村
-last_name: 杨
+first_name: Yancun
+last_name: Yang
 
 # Is this the primary user of the site?
 superuser: false

@@ -1,10 +1,10 @@
 ---
 # Display name
-title: 昝润啟
+title: Runqi Zan
 
 # Full Name (for SEO)
-first_name: 润啟
-last_name: 昝
+first_name: Runqi
+last_name: Zan
 
 # Is this the primary user of the site?
 superuser: false
@@ -65,4 +65,4 @@ user_groups:
   - 2024级研究生
 ---
 
-本科毕业于鲁东大学信息与电气工程学院计算机科学与技术专业，现就读于鲁东大学信息与电气工程学院人工智能专硕。
+昝润啟，本科毕业于鲁东大学计算机科学与技术专业，现就读于鲁东大学人工智能专硕。

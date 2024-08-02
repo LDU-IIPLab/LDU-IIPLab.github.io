@@ -1,10 +1,10 @@
 ---
 # Display name
-title: 孙庆硕
+title: Qingshuo Sun
 
 # Full Name (for SEO)
-first_name: 庆硕
-last_name: 孙
+first_name: Qingshuo
+last_name: Sun
 
 # Is this the primary user of the site?
 superuser: false
@@ -64,4 +64,4 @@ user_groups:
   - 2024级研究生
 ---
 
-本科毕业于鲁东大学信息与电气工程学院电子信息工程专业，现就读于鲁东大学信息与电气工程学院计算机科学与技术学硕。
+孙庆硕，本科毕业于鲁东大学电子信息工程专业，现就读于鲁东大学计算机科学与技术学硕。

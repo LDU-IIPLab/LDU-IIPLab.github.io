@@ -1,10 +1,10 @@
 ---
 # Display name
-title: 朱相颐
+title: Zhifang Liu
 
 # Full Name (for SEO)
-first_name: 相颐
-last_name: 朱
+first_name: Zhifang
+last_name: Liu
 
 # Is this the primary user of the site?
 superuser: false
@@ -21,14 +21,13 @@ organizations:
 bio: 
 
 interests:
-  - 物体目标导航
-  - 具身智能
+  - 食品推荐
 
 education:
   courses:
-    - course: 电子信息工程, 工学学士
-      institution: 鲁东大学
-      year: 2024
+    - course: 计算机科学与技术, 工学学士
+      institution: 济宁医学院
+      year: 2022
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -37,7 +36,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:zhuxiangyi@m.ldu.edu.cn'
+    link: 'mailto:2667967313@qq.com'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -65,4 +64,4 @@ user_groups:
   - 2024级研究生
 ---
 
-本科毕业于鲁东大学信息与电气工程学院电子信息工程专业，现就读于鲁东大学信息与电气工程学院计算机科学与技术学硕。
+刘志放，本科毕业于济宁医学院计算机科学与技术专业，现就读于鲁东大学计算机科学与技术学硕。
