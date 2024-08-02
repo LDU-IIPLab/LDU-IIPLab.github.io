@@ -21,7 +21,7 @@ organizations:
 bio: 
 
 interests:
-  - 多模态
+  - history
   - 多模态检索
 
 education:
