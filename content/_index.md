@@ -120,7 +120,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./team/" cta_text="Meet the team →" %}}
+        {{% cta cta_link="./team/" cta_text="研究团队 -->" %}}
     design:
       columns: '1'
 ---

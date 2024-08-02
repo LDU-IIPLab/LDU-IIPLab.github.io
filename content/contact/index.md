@@ -26,11 +26,11 @@ sections:
       #   - 'Monday 10:00 to 13:00'
       #   - 'Wednesday 09:00 to 10:00'
       # appointment_url: 'https://calendly.com'
-      #contact_links:
-      #  - icon: comments
-      #    icon_pack: fas
-      #    name: Discuss on Forum
-      #    link: 'https://discourse.gohugo.io'
+      contact_links:
+       - icon: weixin
+         icon_pack: fab
+         name: 食品计算(Food Computing)小组公众号
+         link: 'https://mp.weixin.qq.com/s/NSwdzOne7WQ72_jf9Y3ftg'
     
       # Automatically link email and phone or display as text?
       autolink: true
