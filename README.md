@@ -2,6 +2,10 @@
 这是鲁东大学智能信息处理实验室的主页源代码仓库。
 
 ## 如何添加新内容
+```
+# 克隆本仓库
+git clone https://github.com/LDU-IIPLab/LDU-IIPLab.github.io.git
+```
 ### 添加自己的个人页面
 1. 在 `content\authors` 目录下新建以自己名字命名的目录，放入 `_index.md`（内容参照其他人）和头像 `avatar.jpg` 或 `avatar.png`（最好是正方形）。
 2. 修改`_index.md`中的内容为自己的。其中`user_groups`字段从 `content\team\index.md`中的`user_groups`选择。
