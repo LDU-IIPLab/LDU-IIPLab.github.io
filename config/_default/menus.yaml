@@ -17,7 +17,7 @@ main:
   #   url: event
   #   weight: 40
   - name: 发表论文
-    url: publications
+    url: publication
     weight: 50
   - name: 联系我们
     url: contact
