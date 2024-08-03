@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Weiqing Ming
+title: Weiqing Min
 
 # Full Name (for SEO)
 first_name: Weiqing
