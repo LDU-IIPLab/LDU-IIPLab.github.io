@@ -4,7 +4,7 @@ title: Weiqing Ming
 
 # Full Name (for SEO)
 first_name: Weiqing
-last_name: Ming
+last_name: Min
 
 # Is this the primary user of the site?
 superuser: false
