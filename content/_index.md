@@ -110,7 +110,7 @@ sections:
       filters:
         folders:
           - publication
-        publication_type: 'article'
+        publication_type: 'article-journal'
     design:
       view: citation
       columns: '1'
