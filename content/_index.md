@@ -13,7 +13,7 @@ sections:
       text: |
         <br>
 
-        **智能信息处理实验室（Intelligent Information Processing Laboratory）** 建立于20xx，是鲁东大学信息与电气工程学院下属的科研机构。\
+        **智能信息处理实验室（Intelligent Information Processing Laboratory）** 建立于20xx，是鲁东大学信息与电气工程学院下属的研究团队。\
         主要研究方向为轻量级识别、零样本检测、图像检索等方向的研究和应用。
 
   - block: slider
