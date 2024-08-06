@@ -25,7 +25,7 @@ interests:
 
 education:
   courses:
-    - course: 软件工程，工学学士
+    - course: 软件工程, 工学学士
       institution: 聊城大学
       year: 2022
 
