@@ -9,12 +9,21 @@ sections:
       title: |
         # 欢迎来到智能信息处理实验室
       image:
-        filename: welcome.jpg
+        filename: icon.png
       text: |
         <br>
 
-        **智能信息处理实验室（Intelligent Information Processing Laboratory）** 建立于20xx，是鲁东大学信息与电气工程学院下属的研究团队。\
+        **智能信息处理实验室（Intelligent Information Processing Laboratory）** 成立于2020年，是鲁东大学信息与电气工程学院下属的研究团队。\
         主要研究方向为轻量级识别、零样本检测、图像检索等方向的研究和应用。
+    design:
+      background:
+        # Choose colors such as from https://html-color-codes.info
+        # gradient_start: 'red'
+        # gradient_end: 'blue'
+        # The gradient angle from 0-360 degrees
+        # gradient_angle: 270
+        # Text color (true=light, false=dark, or remove for the dynamic theme color).
+        # text_color_light: true
 
   - block: slider
     content:
@@ -79,8 +88,9 @@ sections:
       order: desc
       page_type: news
     design:
-      view: showcase 
+      view: showcase  
       columns: '1'
+      
   
   # - block: markdown
   #   content:

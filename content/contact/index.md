@@ -55,7 +55,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: ludong.png
+          filename: Wechat_FoodComputing.png
           filters:
             brightness: 1
           parallax: false
