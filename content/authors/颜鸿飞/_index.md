@@ -26,7 +26,7 @@ interests:
 
 education:
   courses:
-    - course: 人工智能，专硕
+    - course: 人工智能, 专硕
       institution: 鲁东大学
       year: 在读
     - course: 计算机科学与技术, 工学学士
