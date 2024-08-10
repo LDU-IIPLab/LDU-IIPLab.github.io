@@ -51,7 +51,7 @@ header:
 footer:
   # block: minimal
   copyright:
-    notice: '© 2023 - {year} Intelligent Information Processing Laboratory, Ludong University.' # 版权信息
+    notice: '© 2020 - {year} Intelligent Information Processing Laboratory, Ludong University.' # 版权信息
     # license:
     #   enable: false # 启用许可证
     #   allow_derivatives: false # 允许衍生作品
