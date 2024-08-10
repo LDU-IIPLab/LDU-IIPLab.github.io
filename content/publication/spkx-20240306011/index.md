@@ -8,9 +8,15 @@ authors:
 - ' 杨延村'
 - ' 王丽丽'
 - ' 蒋树强'
-date: -01-01
-publishDate: '2024-08-03T13:27:40.736079Z'
+date: '2024-03-09'
 publication_types:
 - article-journal
 publication: '*食品科学*'
+
+url_code: 'https://github.com/LduIIPLab/EVHNet'
+
+image:
+  caption: ''
+  focal_point: ""
+  preview_only: false
 ---
