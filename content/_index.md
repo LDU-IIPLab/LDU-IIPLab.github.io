@@ -130,7 +130,7 @@ sections:
       filters:
         folders:
           - publication
-        publication_type: 'article-journal'
+        # publication_type: 'article-journal'
     design:
       view: citation
       columns: '1'
