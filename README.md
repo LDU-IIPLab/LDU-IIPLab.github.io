@@ -2,24 +2,20 @@
 这是鲁东大学智能信息处理实验室的主页源代码仓库。
 
 ## 如何添加新内容
-```
-# 克隆本仓库
-git clone https://github.com/LDU-IIPLab/LDU-IIPLab.github.io.git
-```
+
+### 打开 github.dev 编辑器
+
++ 要在同一浏览器标签页中打开存储库，请按 `.` （在 GitHub 上浏览任何存储库或拉取请求时）。
+
++ 要在新的浏览器标签页中打开存储库，请按 `>`。
+
++ 将 URL 从“github.com”更改为“github.dev”。
+
++ 查看文件时，选择下拉菜单，然后单击“github.dev”。
+![alt text](image.png)
+
 ### 添加自己的个人页面
+
 1. 在 `content\authors` 目录下新建以自己名字命名的目录，放入 `_index.md`（内容参照其他人）和头像 `avatar.jpg` 或 `avatar.png`（最好是正方形）。
 2. 修改`_index.md`中的内容为自己的。其中`user_groups`字段从 `content\team\index.md`中的`user_groups`选择。
 3. 修改完成后提交即可。
-
-## 设置Git代理
-```bash
-#使用socks5代理（推荐）
-git config --global http.https://github.com.proxy socks5://127.0.0.1:PORT
-
-#使用http代理（不推荐）
-git config --global http.https://github.com.proxy http://127.0.0.1:PORT
-
-#取消代理
-git config --global --unset http.proxy 
-git config --global --unset https.proxy
-```

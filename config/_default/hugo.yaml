@@ -27,11 +27,10 @@ enableEmoji: true # 是否启用Emoji
 enableRobotsTXT: true # 是否启用robots.txt
 footnotereturnlinkcontents: <sup>^</sup> # 脚注返回链接内容
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$] # 忽略文件
+
 permalinks: # 永久链接
   authors: '/author/:slug/' # 作者
-  tags: '/tag/:slug/' # 标签
-  categories: '/category/:slug/' # 类别
-  publication_types: '/publication-type/:slug/' # 出版类型
+
 disableAliases: true # 禁用别名
 outputs: # 输出格式
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects] # 主页
