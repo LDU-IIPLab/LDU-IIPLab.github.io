@@ -26,6 +26,10 @@ interests:
 
 education:
   courses:
+    - course: 计算机科学与技术学硕
+      institution: 鲁东大学
+      year: 在读
+  courses:
     - course: 电子信息工程, 工学学士
       institution: 鲁东大学
       year: 2024
