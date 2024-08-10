@@ -1,7 +1,7 @@
 ---
 title: 基于增强Vision Transformer的哈希食品图像检索
 authors:
-- ' 曹品丹'
+- ' Pindan Cao'
 - ' 闵巍庆'
 - ' 宋佳骏'
 - ' 盛国瑞'
