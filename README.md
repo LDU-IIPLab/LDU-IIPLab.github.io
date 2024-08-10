@@ -12,7 +12,7 @@
 + 将 URL 从“github.com”更改为“github.dev”。
 
 + 查看文件时，选择下拉菜单，然后单击“github.dev”。
-![alt text](image.png)
+![github.dev](github.dev.png)
 
 ### 添加自己的个人页面
 
