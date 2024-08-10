@@ -75,3 +75,8 @@ user_groups:
 蒋树强，1977年出生，1998年、2000年分别在山东科技大学本科和硕士研究生毕业，2006年3月在中国科学院计算技术研究所博士毕业后一直留所工作至今，现任中科院计算所研究员，博士生导师，中科院特聘研究员，中国科学院大学岗位教授，中科院智能信息处理重点实验室副主任，国家杰出青年科学基金获得者；先后主持承担科技创新2030-“新一代人工智能”重大项目、国家自然科学基金重点、优青等项目20余项，任IEEE与CCF高级会员，ACM会员，国际期刊ACM ToMM编委，ACM SIGMM中国分会副主席、CCF多媒体专委会秘书长、CCF专委工委委员、IEEE CASS北京分会副主席。
 
 主要研究方向是多模态具身智能、多媒体分析和食品计算，在IEEE/ACM Transactions和CCF-A类会议上发表论文70余篇，获授权专利10余项，研发的成果应用或转移到多个企事业单位；先后获中国计算机学会科学技术奖、中国科学院青年科学家国际合作奖、CSIG自然科学二等奖、吴文俊人工智能自然科学一等奖、北京市科技进步二等奖。
+
+Professor, Key Laboratory of Intelligent Information Processing
+The Institute of Computing Technology of the Chinese Academy of Sciences
+No.6 Kexueyuan South Road Zhongguancun,Haidian District Beijing,China
+Email: sqjiang@ict.ac.cn Tel: 010-62600505

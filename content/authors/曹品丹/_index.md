@@ -25,9 +25,9 @@ interests:
 
 education:
   courses:
-    - course: 计算机科学与技术，学硕
+    - course: 计算机科学与技术, 学硕
       institution: 鲁东大学
-      year: 2022级在读
+      year: 在读
     - course: 计算机科学与技术, 工学学士
       institution: 河南科技大学
       year: 2022

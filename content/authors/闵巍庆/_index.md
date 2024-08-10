@@ -34,10 +34,10 @@ education:
       institution: 中国科学院自动化研究所, 模式识别国家重点实验室
       year: 2015
     - course: 工学硕士
-      institution: 武汉大学, 电子信息学院
+      institution: 武汉大学
       year: 2010
     - course: 工学学士
-      institution: 山东师范大学, 信息科学与工程学院
+      institution: 山东师范大学
       year: 2008
 
 # Social/Academic Networking
@@ -87,3 +87,8 @@ user_groups:
 2008年9月— 2010年7月：武汉大学，电子信息学院，工学硕士
 
 2004年9月— 2008年7月：山东师范大学，信息科学与工程学院，工学学士
+
+Associate Professor, Key Laboratory of Intelligent Information Processing
+The Institute of Computing Technology of the Chinese Academy of Sciences
+No.6 Kexueyuan South Road Zhongguancun,Haidian District Beijing,China
+Email: minweiqing@ict.ac.cn Tel: 010-62600564

@@ -26,10 +26,10 @@ interests:
 
 education:
   courses:
-    - course: 千人计划专家 Bruce Denby 的研究助理
+    - course: 千人计划专家 Bruce Denby 研究助理
       institution: 天津大学
       year: 2018
-    - course: 计算机应用技术博士
+    - course: 计算机应用技术, 博士
       institution: 南开大学
       year: 2014
 

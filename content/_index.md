@@ -28,32 +28,35 @@ sections:
   - block: slider
     content:
       slides:
+
       - title: 👋 Welcome to the group
         content: Take a look at what we're working on...
         align: center
         background:
           image:
-            filename: coders.jpg
+            filename: 
             filters:
               brightness: 0.7
           position: right
           color: '#666'
+
       - title: Lunch & Learn ☕️
         content: 'Share your knowledge with the group and explore exciting new topics together!'
         align: left
         background:
           image:
-            filename: contact.jpg
+            filename: 
             filters:
               brightness: 0.7
           position: center
           color: '#555'
+
       - title: World-Class Semiconductor Lab
         content: 'Just opened last month!'
         align: right
         background:
           image:
-            filename: welcome.jpg
+            filename: 
             filters:
               brightness: 0.5
           position: center
@@ -75,20 +78,27 @@ sections:
   - block: collection
     content:
       title: 新闻
-      subtitle:
-      text:
-      count: 5
+      subtitle: 
+      text: 
+      count: 6
       filters:
+        folders:
+          - news
         author: ''
         category: ''
-        exclude_featured: false
-        publication_type: ''
         tag: ''
+        publication_type: ''
+        featured_only: false
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
       offset: 0
-      order: desc
-      page_type: news
+      sort_by: 'Date'
+      sort_ascending: false
+      # order: desc
+      # page_type: news
     design:
-      view: showcase  
+      view: card  
       columns: '1'
       
   

@@ -26,7 +26,7 @@ interests:
 
 education:
   courses:
-    - course: 管理学博士
+    - course: 管理学, 博士
       institution: 山东大学
       year: 2012
     - course: 企业管理

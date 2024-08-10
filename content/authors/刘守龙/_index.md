@@ -25,6 +25,9 @@ interests:
 
 education:
   courses:
+    - course: 计算机科学与技术, 学硕
+      institution: 鲁东大学
+      year: 在读
     - course: 软件工程, 工学学士
       institution: 山东科技大学
       year: 2023

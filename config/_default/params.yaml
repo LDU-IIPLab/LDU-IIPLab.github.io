@@ -16,19 +16,23 @@ appearance:
 
 marketing:
   seo:
-    site_type: Organization # 网站类型
+    site_type: EducationalOrganization # 网站类型
     local_business_type: '' # 本地业务类型
-    org_name: 'Intelligent Information Processing Laboratory' # 组织名称
+    org_name: '' # 组织名称
     description: 'Intelligent Information Processing Laboratory, Ludong University. 鲁东大学智能信息处理实验室。' # 描述
-    twitter: '' # 推特
-  # analytics:
-  #   google_analytics: '' # 谷歌分析
-  #   baidu_tongji: '' # 百度统计
-  #   google_tag_manager: '' # 谷歌标签管理器
-  #   microsoft_clarity: '' # 微软清晰度
-  # verification:
-  #   google: '' # 谷歌验证
-  #   baidu: '' # 百度验证
+    # twitter: '' # 推特
+  analytics:
+    pirsch: 't46CqZntNaq1i1vRpWMEWai1cz62iw8s'
+    google_analytics: '' # 谷歌分析
+    baidu_tongji: '' # 百度统计
+    google_tag_manager: '' # 谷歌标签管理器
+    microsoft_clarity: '' # 微软清晰度
+  verification:
+    google: ""
+    bing: ""
+    baidu: ""
+    yandex: ""
+    pinterest: ""
 
 # 网站头部
 
@@ -45,18 +49,19 @@ header:
 # 网站底部
 
 footer:
+  # block: minimal
   copyright:
     notice: '© 2023 - {year} Intelligent Information Processing Laboratory, Ludong University.' # 版权信息
-    license:
-      enable: false # 启用许可证
-      allow_derivatives: false # 允许衍生作品
-      share_alike: true # 共享相同方式
-      allow_commercial: false # 允许商业用途
+    # license:
+    #   enable: false # 启用许可证
+    #   allow_derivatives: false # 允许衍生作品
+    #   share_alike: true # 共享相同方式
+    #   allow_commercial: false # 允许商业用途
 
 # 本地化
 
 locale:
-  date_format: '2006/01/02' # 日期格式
+  date_format: 'Jan 2, 2006' # 日期格式
   time_format: '15:04' # 时间格式
   address_format: zh # 地址格式
 
@@ -68,14 +73,16 @@ features:
     extra_languages:
       - r # 额外语言
       - latex # 额外语言
-  math:
-    enable: true # 启用数学公式
+  math: 
+    enable: true
   privacy_pack:
     enable: false # 启用隐私包
+
   repository:
     url: 'https://github.com/LDU-IIPLab/LDU-IIPLab.github.io' # 仓库URL
     content_dir: content # 内容目录
     branch: main # 分支
+    
   avatar:
     gravatar: false # 启用Gravatar
     shape: circle # 头像形状
