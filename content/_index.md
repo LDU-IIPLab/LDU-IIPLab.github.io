@@ -32,7 +32,7 @@ sections:
         align: center
         background:
           image:
-            filename: slider\20240713.jpg
+            filename: slider/20240713.jpg
             filters:
               brightness: 1
           position: center
