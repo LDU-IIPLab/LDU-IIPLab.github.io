@@ -11,8 +11,6 @@ sections:
       image:
         filename: icon.png
       text: |
-        <br>
-
         **智能信息处理实验室（Intelligent Information Processing Laboratory）** 成立于2020年，是鲁东大学信息与电气工程学院下属的研究团队。\
         主要研究方向为轻量级识别、零样本检测、图像检索等方向的研究和应用。
     design:
@@ -29,50 +27,20 @@ sections:
     content:
       slides:
 
-      - title: 👋 Welcome to the group
-        content: Take a look at what we're working on...
+      - title: 
+        content: 
         align: center
         background:
           image:
-            filename: 
+            filename: slider\20240713.jpg
             filters:
-              brightness: 0.7
-          position: right
-          color: '#666'
-
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
-        align: left
-        background:
-          image:
-            filename: 
-            filters:
-              brightness: 0.7
+              brightness: 1
           position: center
-          color: '#555'
-
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
-        align: right
-        background:
-          image:
-            filename: 
-            filters:
-              brightness: 0.5
-          position: center
-          color: '#333'
-        link:
-          icon: graduation-cap
-          icon_pack: fas
-          text: Join Us
-          url: ../contact/
+          
     design:
       spacing:
         # Customize the section spacing. Order is top, right, bottom, left.
         padding: ['0', '5vw', '0', '5vw']
-
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: ''
       is_fullscreen: true
       # Automatically transition through slides?
       loop: true
@@ -137,14 +105,4 @@ sections:
         # publication_type: 'article-journal'
     design:
       view: citation
-      columns: '1'
-
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./team/" cta_text="研究团队 -->" %}}
-    design:
-      columns: '1'
 ---
