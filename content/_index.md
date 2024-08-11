@@ -67,6 +67,10 @@ sections:
           text: Join Us
           url: ../contact/
     design:
+      spacing:
+        # Customize the section spacing. Order is top, right, bottom, left.
+        padding: ['0', '5vw', '0', '5vw']
+
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
       is_fullscreen: true
