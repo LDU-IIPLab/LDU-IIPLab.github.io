@@ -52,7 +52,7 @@ sections:
       title: 新闻
       subtitle: 
       text: 
-      count: 6
+      count: 3
       filters:
         folders:
           - news
@@ -98,7 +98,7 @@ sections:
     content:
       title: 发表论文
       text: ""
-      count: 5
+      count: 3
       filters:
         folders:
           - publication
