@@ -21,16 +21,16 @@ organizations:
 bio: 
 
 interests:
-  - 食品分割
+  - 食品图像检索
 
 education:
   courses:
     - course: 人工智能, 专硕
       institution: 鲁东大学
       year: 在读
-    - course: 软件工程, 工学学士
-      institution: 鲁东大学
-      year: 2022
+    - course: 数据科学与大数据， 工学学士
+      institution: 河北地质大学
+      year: 2023
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -39,7 +39,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:chengxuliu@m.ldu.edu.cn'
+    link: 'mailto:2023120810@m.ldu.edu.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
