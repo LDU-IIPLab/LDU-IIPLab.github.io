@@ -29,8 +29,8 @@ education:
       institution: 鲁东大学
       year: 在读
     - course: 计算机科学与技术, 工学学士
-      institution: 鲁东大学
-      year: 2024
+      institution: 山东第一医科大学
+      year: 2023
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -39,7 +39,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:normanmises@gmail.com'
+    link: 'mailto:919032794@qq.com'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -67,4 +67,4 @@ user_groups:
   - 2024级研究生
 ---
 
-王生龙，本科毕业于鲁东大学计算机科学与技术专业，现就读于鲁东大学人工智能专硕。
+王生龙，本科毕业于山东第一医科大学计算机科学与技术专业，现就读于鲁东大学人工智能专硕。
