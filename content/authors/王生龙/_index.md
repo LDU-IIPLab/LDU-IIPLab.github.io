@@ -21,7 +21,7 @@ organizations:
 bio: 
 
 interests:
-  - 
+  - 食品分割
 
 education:
   courses:
