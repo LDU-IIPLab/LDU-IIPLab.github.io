@@ -30,5 +30,12 @@
     - 如果论文公开了源代码，应添加 `url_code` 字段，指向源代码仓库（可参照  [`content\publication\sheng-2024-lightweight\index.md`](content\publication\sheng-2024-lightweight\index.md) 修改。
     - 如果论文公开了数据集，应添加 `url_dataset` 字段，指向数据集仓库。
     - 如果论文有可在线获取的 pdf，应添加 `url_pdf` 字段，指向 pdf 链接。或直接将 pdf 文件放入文件夹中，如文件夹同名。
-4. 将论文的标题作者截图命名为 `featured` 放入文件夹中。
+4. 将论文的标题作者截图命名为 `featured` 放入文件夹中作为封面。
 5. 提交修改。
+
+### 添加新闻
+
+1. 在 [`content\news`](content\news) 目录下新建以新闻日期命名的目录，放入 `index.md` （内容参照其他人）。
+2. 修改 `index.md` 中的 `title` 、`date` 以及 `新闻内容（markdown格式，图片途径为相对于此新闻目录的相对路径）`
+3. 在此目录下放入命名为 `featured` 的图片作为新闻的封面。
+4. 提交修改。
