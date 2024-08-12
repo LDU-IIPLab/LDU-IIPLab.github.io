@@ -35,7 +35,7 @@
 
 ### 添加新闻
 
-1. 在 [`content\news`](content\news) 目录下新建以新闻日期命名的目录，放入 `index.md` （内容参照其他人）。
+1. 在 [`content\news`](content\news) 目录下新建以新闻日期命名的目录，放入 `index.md` （内容参照其他新闻）。
 2. 修改 `index.md` 中的 `title` 、`date` 以及 `新闻内容（markdown格式，图片途径为相对于此新闻目录的相对路径）`
 3. 在此目录下放入命名为 `featured` 的图片作为新闻的封面。
 4. 提交修改。
