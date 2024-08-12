@@ -16,8 +16,8 @@ image:
 ---
 
 在近日落幕的第二十六届中国机器人及人工智能大赛中，参赛队伍表现出色，斩获省赛区一等奖一项、二等奖两项以及三等奖一项的荣誉，并顺利获得晋级全国总决赛的资格。 
-![](images\certificate1.jpg)
-![](images\certificate2.jpg)
-![](images\certificate3.jpg)
+![](images/certificate1.jpg)
+![](images/certificate2.jpg)
+![](images/certificate3.jpg)
 
 
