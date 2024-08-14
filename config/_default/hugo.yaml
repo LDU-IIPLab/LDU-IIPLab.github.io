@@ -12,8 +12,8 @@ baseURL: 'https://example.com/' # 网站URL
 ############################
 
 defaultContentLanguage: zh # 默认内容语言
-hasCJKLanguage: false # 是否包含CJK语言
-defaultContentLanguageInSubdir: false # 子目录中是否使用默认语言
+hasCJKLanguage: true # 是否包含CJK语言
+defaultContentLanguageInSubdir: true # 子目录中是否使用默认语言
 removePathAccents: true # 移除路径中的重音符号
 
 ############################
