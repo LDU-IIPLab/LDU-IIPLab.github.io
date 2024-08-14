@@ -60,3 +60,20 @@ security: # 安全
   _merge: deep # 合并深度
 sitemap: # 站点地图
   _merge: deep # 合并深度
+
+
+cascade:
+  # Configure blog posts
+  - _target:
+      path: /news/**
+    pager: true
+    editable: true
+    reading_time: true
+    commentable: false
+    show_date: true
+    show_related: true
+    show_breadcrumb: true
+    share: true
+    header:
+      navbar:
+        enable: false
