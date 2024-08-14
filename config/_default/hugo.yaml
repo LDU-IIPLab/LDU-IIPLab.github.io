@@ -20,7 +20,7 @@ removePathAccents: true # 移除路径中的重音符号
 ## 高级设置
 ############################
 
-enableGitInfo: true # 是否启用Git信息
+enableGitInfo: false # 是否启用Git信息
 summaryLength: 30 # 摘要长度
 paginate: 10 # 分页数量
 enableEmoji: true # 是否启用Emoji
@@ -67,13 +67,8 @@ cascade:
   - _target:
       path: /news/**
     pager: true
-    editable: true
     reading_time: true
-    commentable: false
     show_date: true
     show_related: true
-    show_breadcrumb: true
-    share: true
-    header:
-      navbar:
-        enable: false
+    share: false
+ 
