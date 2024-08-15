@@ -57,14 +57,14 @@ sections:
               brightness: 1
           position: center
       - title: 
-      content: 
-      align: center
-      background:
-        image:
-          filename: slider/20240713.jpg
-          filters:
-            brightness: 1
-        position: center
+        content: 
+        align: center
+        background:
+          image:
+            filename: slider/20240713.jpg
+            filters:
+              brightness: 1
+          position: center
         
     design:
       spacing:
