@@ -15,7 +15,7 @@ image:
   
 ---
 
-在第二十五届中国机器人及人工智能大赛中，参赛队伍斩获国赛三等奖一项以及省赛区三等奖两项的荣誉。 
+在第二十五届中国机器人及人工智能大赛中，参赛队伍斩获国赛三等奖一项以及省赛区三等奖两项。 
 ![](images/certificate1.png)
 ![](images/certificate2-1.png)
 ![](images/certificate2-2.png)
