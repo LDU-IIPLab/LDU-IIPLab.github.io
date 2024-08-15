@@ -1,6 +1,6 @@
 ---
-title: “兆易创新杯”第十九届中国研究生电子设计竞赛—荣获省赛一等奖
-date: 2024-08-15
+title: 中国科学院计算技术研究所闵巍庆副研究员莅临指导
+date: 2024-07-13
 
 # To use Cover image, place an image named `featured.jpg/png` in your page's folder.
 image:
@@ -14,7 +14,9 @@ image:
   # alt_text: An optional description of the image for screen readers.
   
 ---
+6月29日下午，中国科学院计算技术研究所**闵巍庆**副研究员莅临指导。在此次活动中，实验室的研究生们积极参与，并依次上台进行了课题汇报和研究成果的总结。
 
-在“兆易创新杯”第十九届中国研究生电子设计竞赛中，由研究生曹品丹、张世杰、王峻松组成的参赛团队—“智食”分子，获得华北赛区省级一等奖。
-
-![](images/20240815175613.jpg)
+![](images/20230629.png)
+![](images/20230629-1.png)
+![](images/20230629-2.png) 
+![](images/20230629-3.png)
