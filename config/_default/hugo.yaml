@@ -21,7 +21,7 @@ removePathAccents: true # 移除路径中的重音符号
 ############################
 
 enableGitInfo: false # 是否启用Git信息
-summaryLength: 30 # 摘要长度
+summaryLength: 200 # 摘要长度
 paginate: 10 # 分页数量
 enableEmoji: true # 是否启用Emoji
 enableRobotsTXT: true # 是否启用robots.txt
