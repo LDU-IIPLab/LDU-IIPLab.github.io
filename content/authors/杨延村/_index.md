@@ -21,8 +21,8 @@ organizations:
 bio: 
 
 interests:
-  - 复杂系统
-  - 营销工程
+  - 计算机视觉
+  - 食品计算
 
 education:
   courses:
