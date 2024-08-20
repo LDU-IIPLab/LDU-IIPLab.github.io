@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Jingru Song
+title: 宋静茹
+
+slug: jingru-song
 
 # Full Name (for SEO)
 first_name: Jingru
