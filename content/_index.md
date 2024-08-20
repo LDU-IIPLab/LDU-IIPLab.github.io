@@ -31,11 +31,40 @@ sections:
         align: center
         background:
           image:
-            filename: 
+            filename: slider/20230420.png
             filters:
               brightness: 1
           position: center
-          
+      
+      - title: 
+        content: 
+        align: center
+        background:
+          image:
+            filename: slider/20230625.JPG
+            filters:
+              brightness: 1
+          position: center
+
+      - title: 
+        content: 
+        align: center
+        background:
+          image:
+            filename: slider/20230802.png
+            filters:
+              brightness: 1
+          position: center
+      - title: 
+        content: 
+        align: center
+        background:
+          image:
+            filename: slider/20240713.jpg
+            filters:
+              brightness: 1
+          position: center
+        
     design:
       spacing:
         # Customize the section spacing. Order is top, right, bottom, left.
@@ -44,7 +73,7 @@ sections:
       # Automatically transition through slides?
       loop: true
       # Duration of transition between slides (in ms)
-      interval: 2000
+      interval: 3000
 
   - block: collection
     content:
