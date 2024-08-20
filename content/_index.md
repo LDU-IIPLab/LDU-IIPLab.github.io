@@ -98,7 +98,7 @@ sections:
       # order: desc
       # page_type: news
     design:
-      view: card  
+      view: showcase
       columns: '1'
       
   
