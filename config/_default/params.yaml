@@ -7,9 +7,10 @@
 
 appearance:
   mode: system
-  theme_day: minimal # 白天主题
-  theme_night: minimal # 夜晚主题
-  font: native # 字体
+  theme_day: Minimal # 白天主题
+  theme_night: cyberpunk # 夜晚主题
+  font: Native # 字体
+  font_size: m
 
 # SEO
 

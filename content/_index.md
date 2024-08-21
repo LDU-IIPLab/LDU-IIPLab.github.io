@@ -16,16 +16,6 @@ sections:
         实验室现有研究人员5名，硕士和本科生50余名，研究方向涵盖了计算机视觉、模式识别、机器学习与深度学习、多媒体技术、食品计算和具身智能等领域。在这些前沿领域，已发表了10余篇高水平研究论文，其中5篇发表于中科院一区和二区期刊。实验室高度重视本科生的科研培养，积极鼓励他们参与大学生创新创业大赛，取得了中国机器人及人工智能大赛国家一等奖一项、三等奖一项，以及多项省级奖项的优异成绩。此外，实验室还培养了多名有潜力的本科生发表中科院二区论文两篇。
 
         实验室不仅专注于具有高学术影响力的基础理论和方法研究，还致力于推动具有实际应用价值的技术创新。目前，多项创新技术即将进入实际应用阶段，进一步彰显了实验室在智能信息处理领域的实力与影响力。
-              
-    design:
-      background:
-        # Choose colors such as from https://html-color-codes.info
-        # gradient_start: 'red'
-        # gradient_end: 'blue'
-        # The gradient angle from 0-360 degrees
-        # gradient_angle: 270
-        # Text color (true=light, false=dark, or remove for the dynamic theme color).
-        # text_color_light: true
 
   - block: slider
     content:
@@ -139,4 +129,5 @@ sections:
         # publication_type: 'article-journal'
     design:
       view: citation
+      columns: '2'
 ---
