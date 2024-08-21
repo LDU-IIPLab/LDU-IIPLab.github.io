@@ -23,7 +23,7 @@ organizations:
 bio: 
 
 interests:
-  - 食品分割
+  - 食品图像分割
 
 education:
   courses:
