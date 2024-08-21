@@ -10,7 +10,6 @@ appearance:
   theme_day: minimal # 白天主题
   theme_night: minimal # 夜晚主题
   font: native # 字体
-  font_size: L # 字体大小
 
 # SEO
 
