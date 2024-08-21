@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Weiqing Min
+title: 闵巍庆
+
+slug: weiqing-min
 
 # Full Name (for SEO)
 first_name: Weiqing

@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Runqi Zan
+title: 昝润啟
+
+slug: runqi-zan
 
 # Full Name (for SEO)
 first_name: Runqi

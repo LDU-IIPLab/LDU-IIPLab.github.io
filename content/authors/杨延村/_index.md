@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Yancun Yang
+title: 杨延村
+
+slug: yancun-yang
 
 # Full Name (for SEO)
 first_name: Yancun

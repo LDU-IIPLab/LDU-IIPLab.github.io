@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Xinlong Wang
+title: 王鑫龙
+
+slug: xinlong-wang
 
 # Full Name (for SEO)
 first_name: Xinlong

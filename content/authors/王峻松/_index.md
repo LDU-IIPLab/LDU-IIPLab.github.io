@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Junsong Wang
+title: 王峻松
+
+slug: junsong-wang
 
 # Full Name (for SEO)
 first_name: Junsong

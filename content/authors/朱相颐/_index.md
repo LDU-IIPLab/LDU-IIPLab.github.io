@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Xiangyi Zhu
+title: 朱相颐
+
+slug: xiangyi-zhu
 
 # Full Name (for SEO)
 first_name: Xiangyi

@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Shuqiang Jiang
+title: 蒋树强
+
+slug: shuqiang-jiang
 
 # Full Name (for SEO)
 first_name: Shuqiang

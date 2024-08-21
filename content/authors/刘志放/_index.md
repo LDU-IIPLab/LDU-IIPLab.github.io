@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Zhifang Liu
+title: 刘志放
+
+slug: zhifang-liu
 
 # Full Name (for SEO)
 first_name: Zhifang

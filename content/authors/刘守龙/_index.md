@@ -1,6 +1,8 @@
 ---
 # Display name
-title: ShouLong Liu
+title: 刘守龙
+
+slug: shoulong-liu
 
 # Full Name (for SEO)
 first_name: ShouLong

@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Hongfei Yan
+title: 颜鸿飞
+
+slug: hongfei-yan
 
 # Full Name (for SEO)
 first_name: Hongfei

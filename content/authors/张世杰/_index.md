@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Shijie Zhang
+title: 张世杰
+
+slug: shijie-zhang
 
 # Full Name (for SEO)
 first_name: Shijie

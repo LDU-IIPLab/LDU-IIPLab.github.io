@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Pindan Cao
+title: 曹品丹
+
+slug: pindan-cao
 
 # Full Name (for SEO)
 first_name: Pindan

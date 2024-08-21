@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Shenglong Wang
+title: 王生龙
+
+slug: shenglong-wang
 
 # Full Name (for SEO)
 first_name: Shenglong

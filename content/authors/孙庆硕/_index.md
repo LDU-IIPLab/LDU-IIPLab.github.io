@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Qingshuo Sun
+title: 孙庆硕
+
+slug: qingshuo-sun
 
 # Full Name (for SEO)
 first_name: Qingshuo

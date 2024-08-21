@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Chengxu Liu
+title: 刘承汿
+
+slug: chengxu-liu
 
 # Full Name (for SEO)
 first_name: Chengxu

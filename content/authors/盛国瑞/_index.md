@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Guorui Sheng
+title: 盛国瑞
+
+slug: guorui-sheng
 
 # Full Name (for SEO)
 first_name: Guorui
