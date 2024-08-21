@@ -7,7 +7,7 @@ sections:
   - block: hero
     content:
       title: |
-        # 欢迎来到智能信息处理实验室
+        ## 欢迎来到智能信息处理实验室
       image:
         filename: icon.png
       text: |
