@@ -1,14 +1,14 @@
 ---
 title: 基于Transformer的零样本食品图像检测
 authors:
-- Jingru Song
-- Weiqing Min
-- ' 周鹏飞'
-- ' 饶全瑞'
-- GuoRui Sheng
-- Yancun Yang
-- ' 王丽丽'
-- Shuqiang Jiang
+- 宋静茹
+- 闵巍庆
+- 周鹏飞
+- 饶全瑞
+- 盛国瑞
+- 杨延村
+- 王丽丽
+- 蒋树强
 date: '2024-05-31'
 publishDate: '2024-08-03T13:27:40.742207Z'
 publication_types:

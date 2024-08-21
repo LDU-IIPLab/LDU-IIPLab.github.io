@@ -1,13 +1,13 @@
 ---
 title: 基于增强Vision Transformer的哈希食品图像检索
 authors:
-- Pindan Cao
-- Weiqing Min
-- ' 宋佳骏'
-- Guorui Sheng
-- Yancun Yang
-- ' 王丽丽'
-- Shuqiang Jiang
+- 曹品丹
+- 闵巍庆
+- 宋佳骏
+- 盛国瑞
+- 杨延村
+- 王丽丽
+- 蒋树强
 date: '2024-03-09'
 publication_types:
 - article-journal
