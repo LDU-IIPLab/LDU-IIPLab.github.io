@@ -1,6 +1,6 @@
 ---
 title: 中国科学院计算技术研究所闵巍庆副研究员莅临指导
-date: 2024-07-13
+date: 2023-06-29
 
 # To use Cover image, place an image named `featured.jpg/png` in your page's folder.
 image:
@@ -14,7 +14,7 @@ image:
   # alt_text: An optional description of the image for screen readers.
   
 ---
-6月29日下午，中国科学院计算技术研究所**闵巍庆**副研究员莅临指导。
+2023年6月29日下午，中国科学院计算技术研究所**闵巍庆**副研究员莅临指导。
 
 <!--more-->
 
@@ -22,5 +22,4 @@ image:
 
 ![](images/20230629.png)
 ![](images/20230629-1.png)
-![](images/20230629-2.png) 
 ![](images/20230629-3.png)

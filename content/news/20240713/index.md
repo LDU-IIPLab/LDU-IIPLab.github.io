@@ -14,7 +14,7 @@ image:
   # alt_text: An optional description of the image for screen readers.
   
 ---
-7月13日下午，中国科学院计算技术研究所**蒋树强**研究员与**闵巍庆**副研究员莅临指导。
+2024年7月13日下午，中国科学院计算技术研究所**蒋树强**研究员与**闵巍庆**副研究员莅临指导。
 
 <!--more-->
 

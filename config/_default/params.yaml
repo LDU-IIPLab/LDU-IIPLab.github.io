@@ -45,6 +45,7 @@ header:
     show_day_night: true # 显示白天/夜晚模式切换
     show_search: true # 显示搜索
     highlight_active_link: true # 高亮激活的链接
+    
 
 # 网站底部
 
@@ -123,4 +124,4 @@ extensions:
 
 publications:
   date_format: January 2006 # 日期格式
-  citation_style: apa # 引用风格
+  citation_style: MLA # 引用风格

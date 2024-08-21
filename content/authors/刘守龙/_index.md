@@ -23,7 +23,7 @@ organizations:
 bio: 
 
 interests:
-  - 食品目标检测
+  - 开放词汇食品图像检测
 
 education:
   courses:

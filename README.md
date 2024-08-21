@@ -1,5 +1,6 @@
 # Information Processing Laboratory
 这是鲁东大学智能信息处理实验室的主页源代码仓库。
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0fb11f60-3886-40a3-8020-ecdfacd741b6/deploy-status)](https://app.netlify.com/sites/ldu-iiplab/deploys)
 
 ## 如何添加新内容
 
