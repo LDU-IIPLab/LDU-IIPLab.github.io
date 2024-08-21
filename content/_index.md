@@ -103,7 +103,7 @@ sections:
       # order: desc
       # page_type: news
     design:
-      view: list  
+      view: showcase
       columns: '1'
       
   
