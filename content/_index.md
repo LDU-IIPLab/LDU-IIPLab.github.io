@@ -30,17 +30,27 @@ sections:
   - block: slider
     content:
       slides:
-
+      
       - title: 
         content: 
         align: center
         background:
           image:
-            filename: slider/20230420.png
+            filename: slider/20240713.jpg
             filters:
               brightness: 1
           position: center
-      
+          
+      - title: 
+        content: 
+        align: center
+        background:
+          image:
+            filename: slider/20230802.png
+            filters:
+              brightness: 1
+          position: center
+
       - title: 
         content: 
         align: center
@@ -56,20 +66,11 @@ sections:
         align: center
         background:
           image:
-            filename: slider/20230802.png
+            filename: slider/20230420.png
             filters:
               brightness: 1
           position: center
-      - title: 
-        content: 
-        align: center
-        background:
-          image:
-            filename: slider/20240713.jpg
-            filters:
-              brightness: 1
-          position: center
-        
+      
     design:
       spacing:
         # Customize the section spacing. Order is top, right, bottom, left.
