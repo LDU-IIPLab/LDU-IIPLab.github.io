@@ -121,5 +121,14 @@ sections:
     design:
       view: citation
       columns: '2'
+      
+  - block: markdown
+    content:
+      title:
+      subtitle:
+      text: |
+        {{% cta cta_link="./join-us/" cta_text="加入我们 →" %}}
+    design:
+      columns: '1'
 ---
 
