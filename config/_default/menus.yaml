@@ -22,3 +22,6 @@ main:
   - name: 联系我们
     url: contact
     weight: 60
+  - name: 纳新
+    url: join-us
+    weight: 70

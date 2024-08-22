@@ -7,7 +7,7 @@ sections:
   - block: contact
     content:
       title: 联系我们
-      text: |-
+      text: 
         
       email: shengguorui@ldu.edu.cn
       # phone: 888 888 88 88
@@ -18,9 +18,9 @@ sections:
         postcode: "264025"
         country: 中国
         country_code: CN
-      # coordinates:
-      #   latitude: '37.520123'
-      #   longitude: '121.354420'
+      coordinates:
+        latitude: '37.520123'
+        longitude: '121.354420'
       # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       # office_hours:
       #   - 'Monday 10:00 to 13:00'
@@ -35,14 +35,13 @@ sections:
       # Automatically link email and phone or display as text?
       autolink: true
     
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      # # Email form provider
+      # form:
+      #   provider: netlify
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: false
+          
     design:
       columns: '1'
 
