@@ -19,9 +19,6 @@ main:
   - name: 发表论文
     url: publication
     weight: 50
-  - name: 联系我们
+  - name: 加入我们
     url: contact
     weight: 60
-  - name: 纳新
-    url: join-us
-    weight: 70

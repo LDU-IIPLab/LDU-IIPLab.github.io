@@ -125,9 +125,3 @@ extensions:
 publications:
   date_format: January 2006 # 日期格式
   citation_style: MLA # 引用风格
-
-
-tnd_forms:
-  provider: netlify
-  css:
-    submit: border p-1

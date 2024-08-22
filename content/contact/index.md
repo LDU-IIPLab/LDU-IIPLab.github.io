@@ -1,26 +1,26 @@
 ---
-title: 联系我们
+title: 加入我们
 
 type: landing
 
 sections:
   - block: contact
     content:
-      title: 联系我们
-      text: 
+      title: 加入我们
+      text: '请先加入纳新QQ群'
         
       email: shengguorui@ldu.edu.cn
       # phone: 888 888 88 88
       address:
-        street: 芝罘区红旗中路186号
+        street: 芝罘区红旗中路186号鲁东大学北区21号教学楼
         city: 烟台市
         region: 山东省
         postcode: "264025"
         country: 中国
         country_code: CN
-      coordinates:
-        latitude: '37.520123'
-        longitude: '121.354420'
+      # coordinates:
+      #   latitude: '37.520123'
+      #   longitude: '121.354420'
       # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       # office_hours:
       #   - 'Monday 10:00 to 13:00'
@@ -31,6 +31,10 @@ sections:
          icon_pack: fab
          name: 食品计算(Food Computing)小组公众号
          link: 'https://mp.weixin.qq.com/s/NSwdzOne7WQ72_jf9Y3ftg'
+       - icon: qq
+         icon_pack: fab
+         name: 纳新群 941435778
+         link: https://qm.qq.com/q/FIaYuOdCms
     
       # Automatically link email and phone or display as text?
       autolink: true
@@ -44,24 +48,19 @@ sections:
           
     design:
       columns: '1'
+      spacing:
+        padding: ['0', '0', '0', '0']
 
   - block: markdown
     content:
       title: 
       subtitle: ''
-      text:
+      text: '
+      微信公众号 
+      ![](Wechat_FoodComputing.png)
+      ![](QQ.jpg) 
+      '
     design:
       columns: '1'
-      background:
-        image: 
-          filename: Wechat_FoodComputing.png
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: contain
-          text_color_light: true
-      # spacing:
-      #   padding: ['20px', '0', '20px', '0']
-      # css_class: fullscreen
+      
 ---
