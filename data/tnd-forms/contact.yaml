@@ -14,7 +14,7 @@ fields:
     required: true
 
   - name: Professional class
-    label: 专业班级
+    label: 班级
     type: text
     required: true
     
