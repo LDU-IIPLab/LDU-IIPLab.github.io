@@ -137,7 +137,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./join-us/" cta_text="加入我们 →" %}}
+        {{% cta cta_link="./contact/" cta_text="加入我们 →" %}}
     design:
       columns: '1'
       background:

@@ -10,6 +10,5 @@ imports:
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-seo
-  - path: github.com/theNewDynamic/hugo-module-tnd-forms
 
 proxy: https://goproxy.cn

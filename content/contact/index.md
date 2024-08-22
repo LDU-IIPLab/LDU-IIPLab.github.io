@@ -48,8 +48,8 @@ sections:
           
     design:
       columns: '1'
-      spacing:
-        padding: ['0', '0', '0', '0']
+      # spacing:
+      #   padding: ['0', '0', '0', '0']
 
   - block: markdown
     content:
@@ -62,5 +62,7 @@ sections:
       '
     design:
       columns: '1'
+      background:
+        color: 'white'
       
 ---
