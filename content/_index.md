@@ -30,6 +30,12 @@ sections:
             filename: slider/20240713.jpg
             filters:
               brightness: 1
+            #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+            size: contain
+            # Image focal point. Options include `left`, `center` (default), or `right`.
+            position: center
+            # 是否在桌面上使用类似视差的固定背景效果？true/false
+            parallax: false
           position: center
 
       - title: 
@@ -40,6 +46,8 @@ sections:
             filename: slider/20230625.JPG
             filters:
               brightness: 1
+            #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+            size: contain
           position: center
 
       - title: 
@@ -50,12 +58,14 @@ sections:
             filename: slider/20230420.png
             filters:
               brightness: 1
+            #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+            size: contain
           position: center
       
     design:
       spacing:
         # Customize the section spacing. Order is top, right, bottom, left.
-        padding: ['0', '5vw', '0', '5vw']
+        padding: ['0', '0', '0', '0']
       is_fullscreen: true
       # Automatically transition through slides?
       loop: true
@@ -130,5 +140,21 @@ sections:
         {{% cta cta_link="./join-us/" cta_text="加入我们 →" %}}
     design:
       columns: '1'
+      background:
+        image:
+          # Name of image in `assets/media/`.
+          filename: banner1.png
+          # Apply image filters?
+          filters:
+            # Darken the image? Range 0-1 where 1 is transparent and 0 is opaque.
+            brightness: 0.7
+          #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+          size: contain
+          # Image focal point. Options include `left`, `center` (default), or `right`.
+          position: center
+          # 是否在桌面上使用类似视差的固定背景效果？true/false
+          parallax: false
+          # Text color (true=light, false=dark, or remove for the dynamic theme color).
+          text_color_light: true
 ---
 
