@@ -23,8 +23,8 @@ organizations:
 bio: 
 
 interests:
-  - 物体目标导航
-  - 具身智能
+  - Object Goal Navigation
+  - Embodied AI
 
 education:
   courses:
