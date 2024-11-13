@@ -1,7 +1,6 @@
 ---
 title: 团队前往苏州参加2024年多媒体技术回顾与展望论坛
-
-date: 2024-11-9
+date: 2024-11-09
 
 # To use Cover image, place an image named `featured.jpg/png` in your page's folder.
 image:
