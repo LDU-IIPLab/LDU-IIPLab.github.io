@@ -50,18 +50,4 @@ sections:
       columns: '1'
       # spacing:
       #   padding: ['0', '0', '0', '0']
-
-  # - block: markdown
-  #   content:
-  #     title: 
-  #     subtitle: ''
-  #     text: '
-  #     微信公众号 
-  #     ![](Wechat_FoodComputing.png)
-  #     ![](QQ.jpg) 
-  #     '
-  #   design:
-  #     columns: '1'
-  #     background:
-  #       color: 'white'
 ---
