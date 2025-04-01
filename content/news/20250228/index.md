@@ -1,6 +1,6 @@
 ---
 title: 2025年智能信息处理实验室招收 081200 计算机科学与技术学硕调剂生
-date: 2025-02-28
+date: 2025-03-28
 
 # To use Cover image, place an image named `featured.jpg/png` in your page's folder.
 image:
