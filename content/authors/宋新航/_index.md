@@ -17,7 +17,7 @@ role: 副研究员
 # Organizations/Affiliations
 organizations:
   - name: 中国科学院计算技术研究所
-    url: 'https://vipl.ict.ac.cn/people/xhsong/'
+    url: 'https://www.ict.ac.cn/sourcedb/cn/jssrck/201912/t20191209_5451122.html'
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
