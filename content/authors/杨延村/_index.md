@@ -45,7 +45,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:yangancun@ldu.edu.cn'
+    link: 'mailto:yangyancun@ldu.edu.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
