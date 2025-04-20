@@ -21,7 +21,38 @@ sections:
   - block: slider
     content:
       slides:
-      
+      - title: 
+        content: 
+        align: center
+        background:
+          image:
+            filename: slider/20250420.jpg
+            filters:
+              brightness: 1
+            #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+            size: contain
+            # Image focal point. Options include `left`, `center` (default), or `right`.
+            position: center
+            # 是否在桌面上使用类似视差的固定背景效果？true/false
+            parallax: false
+          position: center
+
+      - title: 
+        content: 
+        align: center
+        background:
+          image:
+            filename: slider/20250419.jpg
+            filters:
+              brightness: 1
+            #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+            size: contain
+            # Image focal point. Options include `left`, `center` (default), or `right`.
+            position: center
+            # 是否在桌面上使用类似视差的固定背景效果？true/false
+            parallax: false
+          position: center
+
       - title: 
         content: 
         align: center
