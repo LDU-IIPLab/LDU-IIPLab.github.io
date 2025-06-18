@@ -9,7 +9,7 @@ authors:
 - Tao Yao
 - Lili Wang
 - Shuqiang Jiang
-date: '2025-01-01'
+date: '2025-06-16'
 publishDate: '2025-06-18T09:12:26.399068Z'
 publication_types:
 - article-journal
@@ -45,4 +45,5 @@ tags:
 links:
 - name: URL
   url: https://www.sciencedirect.com/science/article/pii/S0957417425022559
+url_code: 'https://github.com/Axboexx/CGViT'
 ---
