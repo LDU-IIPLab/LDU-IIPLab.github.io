@@ -13,5 +13,8 @@ publication_types:
 - article-journal
 publication: '*食品科学*'
 
+links:
+- name: 食品科学杂志报导
+  url: https://c.m.163.com/news/a/JJHU85410530N4P3.html
 url_code: 'https://github.com/LduIIPLab/EVHNet'
 ---
