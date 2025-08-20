@@ -22,7 +22,7 @@ marketing:
     description: 'Intelligent Information Processing Laboratory, Ludong University. 鲁东大学智能信息处理实验室。' # 描述
     # twitter: '' # 推特
   analytics:
-    pirsch: 't46CqZntNaq1i1vRpWMEWai1cz62iw8s'
+    pirsch: ''
     google_analytics: '' # 谷歌分析
     baidu_tongji: '' # 百度统计
     google_tag_manager: '' # 谷歌标签管理器
