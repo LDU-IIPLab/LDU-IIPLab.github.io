@@ -49,21 +49,16 @@ jobs:
         with:
           hugo-version: ${{ env.WC_HUGO_VERSION }}
           extended: true
-      - uses: actions/cache@v4
-        with:
-          path: /tmp/hugo_cache_runner/
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Build with Hugo
+      - name: Build with Hugo (no cache)
         env:
           HUGO_ENVIRONMENT: production
         run: |
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        # Clean output and ignore any caches to force a fresh build
+        hugo --minify --cleanDestinationDir --ignoreCache --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
