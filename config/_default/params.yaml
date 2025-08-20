@@ -23,7 +23,6 @@ marketing:
     # twitter: '' # 推特
   analytics:
     pirsch: ''
-    google_analytics: '' # 谷歌分析
     baidu_tongji: '' # 百度统计
     google_tag_manager: '' # 谷歌标签管理器
     microsoft_clarity: '' # 微软清晰度

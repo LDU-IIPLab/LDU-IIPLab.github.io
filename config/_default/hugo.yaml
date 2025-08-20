@@ -5,7 +5,7 @@
 
 title: 鲁东大学智能信息处理实验室 # 网站名称
 # title: Intelligent Information Processing Laboratory @ LDU # 网站名称
-baseURL: 'https://example.com/' # 网站URL
+baseURL: 'https://ldu-iiplab.github.io/' # 网站URL，与部署地址一致
 
 ############################
 ## 语言设置
@@ -22,7 +22,9 @@ removePathAccents: true # 移除路径中的重音符号
 
 enableGitInfo: false # 是否启用Git信息
 summaryLength: 200 # 摘要长度
-paginate: 10 # 分页数量
+# Hugo v0.128+ 中已弃用 paginate，改用 pagination.pagerSize
+pagination:
+  pagerSize: 10 # 分页数量
 enableEmoji: true # 是否启用Emoji
 enableRobotsTXT: true # 是否启用robots.txt
 footnotereturnlinkcontents: <sup>^</sup> # 脚注返回链接内容
