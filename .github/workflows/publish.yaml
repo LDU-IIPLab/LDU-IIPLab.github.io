@@ -31,6 +31,19 @@ jobs:
         with:
           # Fetch history for Hugo's .GitInfo and .Lastmod
           fetch-depth: 0
+          # Fetch Git LFS files if any images are stored with LFS
+          lfs: true
+      - name: Debug asset files (pre-build)
+        run: |
+          echo "List assets/media:";
+          ls -alh assets/media || true
+          echo "\nList assets/media/slider:";
+          ls -alh assets/media/slider || true
+          echo "\nGit tracked files containing 20230625 (case-insensitive):";
+          git ls-files | grep -i 'assets/media/slider/20230625' || true
+          echo "\nShow Git core.ignorecase config (helps diagnose case-only renames on Windows):";
+          git config --global --get core.ignorecase || echo "(no global setting)";
+          git config --local --get core.ignorecase || echo "(no local setting)"
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
