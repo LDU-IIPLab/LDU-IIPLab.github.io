@@ -21,6 +21,7 @@ sections:
   - block: slider
     content:
       slides:
+      
       - title: 
         content: 
         align: center
