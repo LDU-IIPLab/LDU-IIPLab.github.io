@@ -12,4 +12,5 @@ publishDate: '2024-08-03T13:27:40.729879Z'
 publication_types:
 - article-journal
 publication: '*ACM Transactions on Multimedia Computing, Communications and Applications*'
+url_code: 'https://github.com/sdeven95/EVNets'
 ---
