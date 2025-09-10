@@ -1,12 +1,12 @@
 ---
 # Display name
-title: 林雁超
+title: 周少杰
 
-slug: yanchao-lin
+slug: shaojie-zhou
 
 # Full Name (for SEO)
-first_name: YanChao
-last_name: Lin
+first_name: ShaoJie
+last_name: Zhou
 
 # Is this the primary user of the site?
 superuser: false
@@ -27,11 +27,11 @@ interests:
 
 education:
   courses:
-    - course: 人工智能, 专硕
+    - course: 计算机科学与技术, 学硕
       institution: 鲁东大学
       year: 在读
     - course: 计算机科学与技术, 工学学士
-      institution: 聊城大学东昌学院
+      institution: 山西科技学院
       year: 2025
 
 # Social/Academic Networking
@@ -41,7 +41,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:1164695686@qq.com'
+    link: 'mailto:1354028935@qq.com'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -69,4 +69,4 @@ user_groups:
   - 2025级研究生
 ---
 
-林雁超，本科毕业于聊城大学东昌学院计算机科学与技术专业，现就读于鲁东大学人工智能专硕。
+周少杰，本科毕业于山西科技学院计算机科学与技术专业，现就读于鲁东大学计算机科学与技术学硕。
