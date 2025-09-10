@@ -50,7 +50,7 @@ social:
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/Zhang-1
+    link: https://github.com/Zhangh-1
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -68,5 +68,6 @@ highlight_name: true
 user_groups:
   - 2025级研究生
 ---
+
 
 张恒，本科毕业于齐鲁工业大学计算机科学与技术专业，现就读于鲁东大学计算机科学与技术学硕。
