@@ -18,10 +18,8 @@ sections:
           - 2025级研究生
           - 2026级研究生
           - 2027级研究生
-          - 2028级研究生
-          - 本科生
-          - 访问学者
-          - 校友
+          - 已毕业
+
       sort_by: Params.last_name
       sort_ascending: true
     design:

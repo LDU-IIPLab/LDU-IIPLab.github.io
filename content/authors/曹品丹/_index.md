@@ -12,7 +12,7 @@ last_name: Cao
 superuser: false
 
 # Role/position
-role: 
+role:
 
 # Organizations/Affiliations
 organizations:
@@ -20,7 +20,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
 interests:
   - 食品图像检索
@@ -29,7 +29,7 @@ education:
   courses:
     - course: 计算机科学与技术, 学硕
       institution: 鲁东大学
-      year: 在读
+      year: 2025
     - course: 计算机科学与技术, 工学学士
       institution: 河南科技大学
       year: 2022
@@ -66,7 +66,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 2022级研究生
+  - 已毕业
 ---
 
 Pindan Cao, currently a Master's student, obtained a Bachelor's degree in Computer Science and Technology from Henan University of Science and Technology in 2022. She is now pursuing a Master's degree in Computer Science and Technology at Ludong University, with research interests in food computing and computer vision.

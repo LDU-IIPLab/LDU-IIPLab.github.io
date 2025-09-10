@@ -12,7 +12,7 @@ last_name: Song
 superuser: false
 
 # Role/position
-role: 
+role:
 
 # Organizations/Affiliations
 organizations:
@@ -20,7 +20,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
 interests:
   - 零样本食品图像检测
@@ -29,7 +29,7 @@ education:
   courses:
     - course: 计算机科学与技术, 学硕
       institution: 鲁东大学
-      year: 在读
+      year: 2025
     - course: 软件工程, 工学学士
       institution: 聊城大学
       year: 2022
@@ -66,7 +66,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 2022级研究生
+  - 已毕业
 ---
 
 Jingru Song received the B.E. degree in Software Engineering from the College of Computer Science, Liaocheng University, Liaocheng, China, in 2022. She is currently pursuing the M.E. degree in Computer Science and Technology at the College of Information and Electrical Engineering, Ludong University, Yantai, China. Her research interests include multimedia processing, computer vision, and food computing.
