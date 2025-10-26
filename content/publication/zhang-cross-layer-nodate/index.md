@@ -7,6 +7,7 @@ authors:
 - Guorui Sheng
 - Shuqiang Jiang
 date: -01-01
+publishDate: '2025-10-26T08:56:05.865885Z'
 publication_types:
 - article-journal
 publication: '*The 8th Chinese Conference on Pattern Recognition and Computer Vision*'
