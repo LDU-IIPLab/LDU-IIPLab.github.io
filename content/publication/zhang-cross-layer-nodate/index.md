@@ -31,3 +31,5 @@ abstract: Existing asymmetric retrieval methods primarily rely on aligning globa
   techniques, highlighting its effectiveness in asymmetric fine-grained retrieval
   tasks.
 ---
+
+论文尚未出版，将待出版后补全信息。
