@@ -20,7 +20,7 @@ organizations:
     url: 'https://xinke.ldu.edu.cn/info/1157/2649.htm'
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
 interests:
   - 计算机视觉

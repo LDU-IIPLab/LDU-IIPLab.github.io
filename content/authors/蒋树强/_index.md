@@ -20,7 +20,7 @@ organizations:
     url: 'http://www.ict.ac.cn/sourcedb/cn/jssrck/200909/t20090917_2496647.html'
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
 interests:
   - 多模态具身智能
@@ -71,7 +71,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 研究员
+  - 教师
 ---
 
 蒋树强，1977年出生，1998年、2000年分别在山东科技大学本科和硕士研究生毕业，2006年3月在中国科学院计算技术研究所博士毕业后一直留所工作至今，现任中科院计算所研究员，博士生导师，中科院特聘研究员，中国科学院大学岗位教授，中科院智能信息处理重点实验室副主任，国家杰出青年科学基金获得者；先后主持承担科技创新2030-“新一代人工智能”重大项目、国家自然科学基金重点、优青等项目20余项，任IEEE与CCF高级会员，ACM会员，国际期刊ACM ToMM编委，ACM SIGMM中国分会副主席、CCF多媒体专委会秘书长、CCF专委工委委员、IEEE CASS北京分会副主席。

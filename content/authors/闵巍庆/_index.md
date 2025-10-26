@@ -20,7 +20,7 @@ organizations:
     url: 'http://www.ict.ac.cn/sourcedb/cn/jssrck/201810/t20181030_5151342.html'
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
 interests:
   - 多媒体内容分析、理解及应用
@@ -74,13 +74,13 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 研究员
+  - 教师
 ---
 闵巍庆
 
-2018年10月 — 今：中国科学院计算技术研究所，智能信息处理重点实验室，副研究员 
+2018年10月 — 今：中国科学院计算技术研究所，智能信息处理重点实验室，副研究员
 
-2017年8月 — 2018年10月：中国科学院计算技术研究所，智能信息处理重点实验室，助理研究员 
+2017年8月 — 2018年10月：中国科学院计算技术研究所，智能信息处理重点实验室，助理研究员
 
 2015年9月 — 2017年8月：中国科学院计算技术研究所，智能信息处理重点实验室，博士后
 

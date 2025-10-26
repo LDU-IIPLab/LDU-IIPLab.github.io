@@ -20,7 +20,7 @@ organizations:
     url: 'https://xinke.ldu.edu.cn/info/1157/2596.htm'
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
 interests:
   - 计算机视觉
@@ -69,8 +69,8 @@ highlight_name: true
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-  - 教师
+# user_groups:
+#   - 教师
 ---
 
 杨延村，男，管理学博士，本科毕业于山东大学管理科学与工程专业，研究生毕业于山东大学企业管理专业。现任鲁东大学信息与电气工程学院讲师。先后在航天软件、智能车间、人工智能等方面公司进行项目合作和兼职，完成软件框架搭建、平台搭建，智能调度算法研发、自动化开发框架研发等工作。

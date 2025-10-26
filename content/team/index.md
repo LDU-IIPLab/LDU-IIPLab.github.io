@@ -10,7 +10,6 @@ sections:
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-          - 研究员
           - 教师
           - 2022级研究生
           - 2023级研究生
