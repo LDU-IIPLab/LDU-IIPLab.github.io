@@ -14,6 +14,8 @@ superuser: false
 # Role/position
 role: 副研究员
 
+order: 3
+
 # Organizations/Affiliations
 organizations:
   - name: 中国科学院计算技术研究所
