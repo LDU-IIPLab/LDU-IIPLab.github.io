@@ -13,6 +13,7 @@ date: -01-01
 publishDate: '2025-10-26T10:05:21.357431Z'
 publication_types:
 - article-journal
+publication: '*China Multimedia 2025*'
 abstract: 'Food image recognition holds significant application potential in the field
   of computer vision. However, due to performance constraints on mobile devices, the
   scale and computational overhead of models face notable limitations, making effective
