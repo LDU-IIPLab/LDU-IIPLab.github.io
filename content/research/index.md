@@ -1,6 +1,5 @@
 ---
 title: 研究方向
-date: 2022-10-24
 
 type: landing
 
@@ -66,7 +65,7 @@ sections:
             <h2 style="font-size: 2em; margin: 0; color: white;">具身智能</h2>
           </div>
           <p style="font-size: 1.1em; line-height: 2; text-align: justify;">
-            聚焦智能体在三维真实环境中的感知、理解与交互能力，重点研究<strong>物体目标导航</strong>。该方向旨在通过多模态融合、场景记忆建模与语义地图构建，提升智能体在未知环境中的探索效率、目标定位能力与长期任务执行鲁棒性。
+            聚焦智能体在三维真实环境中的感知、理解与交互能力，重点研究<strong>目标导航</strong>。该方向旨在通过多模态融合、场景记忆建模与语义地图构建，提升智能体在未知环境中的探索效率、目标定位能力与长期任务执行鲁棒性。
           </p>
           <div style="margin: 30px 0;">
             <h3 style="color: #ffd700; margin-bottom: 15px;">💡 核心挑战</h3>
