@@ -39,7 +39,7 @@ outputs: # 输出格式
   section: [HTML, RSS] # 部分
 imaging: # 图像处理
   resampleFilter: lanczos # 重采样过滤器
-  quality: 75 # 质量
+  quality: 100 # 质量
   anchor: smart # 锚点
 timeout: 600000 # 超时时间
 taxonomies: # 分类法

@@ -13,7 +13,6 @@ appearance:
   font_size: m
 
 # SEO
-
 marketing:
   seo:
     site_type: EducationalOrganization # 网站类型
@@ -52,11 +51,11 @@ footer:
   # block: minimal
   copyright:
     notice: '© 2020 - {year} Intelligent Information Processing Laboratory, Ludong University.' # 版权信息
-    # license:
-    #   enable: false # 启用许可证
-    #   allow_derivatives: false # 允许衍生作品
-    #   share_alike: true # 共享相同方式
-    #   allow_commercial: false # 允许商业用途
+    license:
+      enable: false # 启用许可证
+      allow_derivatives: false # 允许衍生作品
+      share_alike: true # 共享相同方式
+      allow_commercial: false # 允许商业用途
 
 # 本地化
 

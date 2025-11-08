@@ -7,9 +7,9 @@ main:
   - name: 新闻
     url: news
     weight: 10
-  # - name: Research
-  #   url: research
-  #   weight: 20
+  - name: 研究方向
+    url: research
+    weight: 20
   - name: 研究团队
     url: team
     weight: 30
