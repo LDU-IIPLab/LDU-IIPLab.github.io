@@ -151,21 +151,95 @@ sections:
       title: 研究方向
       subtitle: ''
       text: |
-        <div style="margin-bottom: 30px;">
-          <h3 style="color: #1976d2; margin-bottom: 15px;">🍽️ 多模态视觉智能与食品计算</h3>
-          <p style="text-align: justify; line-height: 1.8;">
-            该方向面向计算机视觉、多模态学习与人工智能的前沿研究，重点探索图像、视频、文本等异构数据的协同建模、跨模态对齐与语义理解机制。致力于发展高效、鲁棒、可泛化的视觉智能技术，包括细粒度识别、目标检测与分割、跨模态检索、开放词汇识别、视觉语言模型驱动的知识增强表征学习等方法。在此基础上，我们将多模态视觉智能技术深度应用于食品相关场景，构建面向食物图像理解、食谱解析与营养估算的智能系统，支持健康管理、智能餐饮、农业生产和饮食文化计算等应用需求。通过引入大模型、知识图谱与多源数据融合，旨在提升复杂环境下的语义表达能力、个性化分析能力与跨场景迁移能力。
-          </p>
-        </div>
-        
-        <div style="margin-bottom: 30px;">
-          <h3 style="color: #1976d2; margin-bottom: 15px;">🤖 具身智能</h3>
-          <p style="text-align: justify; line-height: 1.8;">
-            聚焦智能体在三维真实环境中的感知、理解与交互能力，重点研究物体目标导航。该方向旨在通过多模态融合、场景记忆建模与语义地图构建，提升智能体在未知环境中的探索效率、目标定位能力与长期任务执行鲁棒性。核心挑战包括跨模态语义对齐、记忆表示与动态决策规划。该研究在服务机器人、智能家居、自主探索等领域具有广泛应用前景，是推动具身智能从感知走向认知的关键路径。
-          </p>
+        <div class="neo-wrapper" style="font-family: 'Courier New', Courier, monospace; color: #000; overflow: hidden;">
+          <style>
+            @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+            .neo-wrapper { --neo-shadow: 6px 6px 0px 0px #000; --neo-border: 3px solid #000; }
+            .neo-card { 
+              transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); 
+              border: var(--neo-border);
+              box-shadow: var(--neo-shadow);
+            }
+            .neo-card:hover { 
+              transform: translate(-4px, -4px); 
+              box-shadow: 10px 10px 0px 0px #000 !important; 
+            }
+            .neo-scroll-text {
+              white-space: nowrap;
+              overflow: hidden;
+              box-sizing: border-box;
+            }
+            .neo-scroll-text p {
+              display: inline-block;
+              padding-left: 100%;
+              animation: neo-marquee 20s linear infinite;
+              margin: 0;
+            }
+            @keyframes neo-marquee {
+              0% { transform: translate(0, 0); }
+              100% { transform: translate(-100%, 0); }
+            }
+            @media (max-width: 768px) {
+               .neo-grid { grid-template-columns: 1fr !important; }
+            }
+          </style>
+
+          <div class="neo-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; padding: 1rem;">
+
+            <!-- Card 1 -->
+            <div class="neo-card" style="background: #FF90E8; position: relative; display: flex; flex-direction: column;">
+              <div style="border-bottom: 3px solid #000; padding: 0.8rem; background: #fff; display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-weight: 900; font-size: 1rem;">01 // FOOD_COMPUTING</span>
+                <span style="font-size: 1.5rem;">🍽️</span>
+              </div>
+              <div style="padding: 1.5rem; flex-grow: 1;">
+                <h3 style="font-weight: 900; font-size: 1.6rem; margin: 0 0 1rem 0; text-transform: uppercase; line-height: 1.2;">多模态视觉智能<br>& 食品计算</h3>
+                <p style="font-weight: bold; margin-bottom: 1rem; text-align: justify; font-size: 0.95rem; line-height: 1.6;">
+                  面向计算机视觉、多模态学习与人工智能的前沿研究。探索图像、视频、文本等异构数据的<span style="background: #fff; padding: 0 4px; border: 2px solid #000;">协同建模</span>与<span style="background: #fff; padding: 0 4px; border: 2px solid #000;">跨模态对齐</span>。
+                </p>
+                <div style="background: #000; color: #FF90E8; padding: 1rem; margin-top: 1rem; font-size: 0.85rem; border: 2px solid #fff;">
+                  <p style="margin: 0;">+ 细粒度识别 / 目标检测</p>
+                  <p style="margin: 5px 0;">+ 跨模态检索 / 开放词汇识别</p>
+                  <p style="margin: 0;">+ 视觉语言模型 / 知识增强</p>
+                </div>
+                <p style="margin-top: 1rem; font-size: 0.9rem; font-weight: bold;">
+                  应用: 智能餐饮、健康管理、饮食文化计算。
+                </p>
+              </div>
+              <div class="neo-scroll-text" style="border-top: 3px solid #000; background: #fff; padding: 0.5rem; font-size: 0.8rem; font-weight: bold;">
+                <p>构建面向食物图像理解、食谱解析与营养估算的智能系统 ➔ 支持健康管理与农业生产 ➔ 引入大模型与知识图谱</p>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="neo-card" style="background: #23A094; position: relative; display: flex; flex-direction: column;">
+              <div style="border-bottom: 3px solid #000; padding: 0.8rem; background: #fff; display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-weight: 900; font-size: 1rem;">02 // EMBODIED_AI</span>
+                <span style="font-size: 1.5rem;">🤖</span>
+              </div>
+              <div style="padding: 1.5rem; flex-grow: 1;">
+                <h3 style="font-weight: 900; font-size: 1.6rem; margin: 0 0 1rem 0; text-transform: uppercase; line-height: 1.2;">具身智能<br>(Embodied AI)</h3>
+                <p style="font-weight: bold; margin-bottom: 1rem; text-align: justify; font-size: 0.95rem; line-height: 1.6;">
+                  聚焦智能体在三维真实环境中的<span style="background: #fff; padding: 0 4px; border: 2px solid #000;">感知、理解与交互</span>。重点研究物体目标导航。
+                </p>
+                <div style="background: #000; color: #23A094; padding: 1rem; margin-top: 1rem; font-size: 0.85rem; border: 2px solid #fff;">
+                  <p style="margin: 0;">+ 多模态融合 / 场景记忆建模</p>
+                  <p style="margin: 5px 0;">+ 语义地图构建 / 动态决策</p>
+                  <p style="margin: 0;">+ 跨模态语义对齐</p>
+                </div>
+                <p style="margin-top: 1rem; font-size: 0.9rem; font-weight: bold;">
+                  愿景: 推动具身智能从感知走向认知。
+                </p>
+              </div>
+              <div class="neo-scroll-text" style="border-top: 3px solid #000; background: #fff; padding: 0.5rem; font-size: 0.8rem; font-weight: bold;">
+                 <p>服务机器人、智能家居、自主探索 ➔ 提升未知环境探索效率 ➔ 长期任务执行鲁棒性</p>
+              </div>
+            </div>
+
+          </div>
         </div>
     design:
-      columns: '2'
+      columns: '1'
   
   # - block: markdown
   #   content:
