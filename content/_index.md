@@ -152,91 +152,58 @@ sections:
       subtitle: ''
       text: |
         <div class="neo-wrapper" style="font-family: 'Courier New', Courier, monospace; color: #000; overflow: hidden;">
-          <style>
-            @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
-            .neo-wrapper { --neo-shadow: 6px 6px 0px 0px #000; --neo-border: 3px solid #000; }
-            .neo-card { 
-              transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); 
-              border: var(--neo-border);
-              box-shadow: var(--neo-shadow);
-            }
-            .neo-card:hover { 
-              transform: translate(-4px, -4px); 
-              box-shadow: 10px 10px 0px 0px #000 !important; 
-            }
-            .neo-scroll-text {
-              white-space: nowrap;
-              overflow: hidden;
-              box-sizing: border-box;
-            }
-            .neo-scroll-text p {
-              display: inline-block;
-              padding-left: 100%;
-              animation: neo-marquee 20s linear infinite;
-              margin: 0;
-            }
-            @keyframes neo-marquee {
-              0% { transform: translate(0, 0); }
-              100% { transform: translate(-100%, 0); }
-            }
-            @media (max-width: 768px) {
-               .neo-grid { grid-template-columns: 1fr !important; }
-            }
-          </style>
-
-          <div class="neo-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; padding: 1rem;">
-
-            <!-- Card 1 -->
-            <div class="neo-card" style="background: #FF90E8; position: relative; display: flex; flex-direction: column;">
-              <div style="border-bottom: 3px solid #000; padding: 0.8rem; background: #fff; display: flex; justify-content: space-between; align-items: center;">
-                <span style="font-weight: 900; font-size: 1rem;">01 // FOOD_COMPUTING</span>
-                <span style="font-size: 1.5rem;">🍽️</span>
-              </div>
-              <div style="padding: 1.5rem; flex-grow: 1;">
-                <h3 style="font-weight: 900; font-size: 1.6rem; margin: 0 0 1rem 0; text-transform: uppercase; line-height: 1.2;">多模态视觉智能<br>& 食品计算</h3>
-                <p style="font-weight: bold; margin-bottom: 1rem; text-align: justify; font-size: 0.95rem; line-height: 1.6;">
-                  面向计算机视觉、多模态学习与人工智能的前沿研究。探索图像、视频、文本等异构数据的<span style="background: #fff; padding: 0 4px; border: 2px solid #000;">协同建模</span>与<span style="background: #fff; padding: 0 4px; border: 2px solid #000;">跨模态对齐</span>。
-                </p>
-                <div style="background: #000; color: #FF90E8; padding: 1rem; margin-top: 1rem; font-size: 0.85rem; border: 2px solid #fff;">
-                  <p style="margin: 0;">+ 细粒度识别 / 目标检测</p>
-                  <p style="margin: 5px 0;">+ 跨模态检索 / 开放词汇识别</p>
-                  <p style="margin: 0;">+ 视觉语言模型 / 知识增强</p>
-                </div>
-                <p style="margin-top: 1rem; font-size: 0.9rem; font-weight: bold;">
-                  应用: 智能餐饮、健康管理、饮食文化计算。
-                </p>
-              </div>
-              <div class="neo-scroll-text" style="border-top: 3px solid #000; background: #fff; padding: 0.5rem; font-size: 0.8rem; font-weight: bold;">
-                <p>构建面向食物图像理解、食谱解析与营养估算的智能系统 ➔ 支持健康管理与农业生产 ➔ 引入大模型与知识图谱</p>
-              </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="neo-card" style="background: #23A094; position: relative; display: flex; flex-direction: column;">
-              <div style="border-bottom: 3px solid #000; padding: 0.8rem; background: #fff; display: flex; justify-content: space-between; align-items: center;">
-                <span style="font-weight: 900; font-size: 1rem;">02 // EMBODIED_AI</span>
-                <span style="font-size: 1.5rem;">🤖</span>
-              </div>
-              <div style="padding: 1.5rem; flex-grow: 1;">
-                <h3 style="font-weight: 900; font-size: 1.6rem; margin: 0 0 1rem 0; text-transform: uppercase; line-height: 1.2;">具身智能<br>(Embodied AI)</h3>
-                <p style="font-weight: bold; margin-bottom: 1rem; text-align: justify; font-size: 0.95rem; line-height: 1.6;">
-                  聚焦智能体在三维真实环境中的<span style="background: #fff; padding: 0 4px; border: 2px solid #000;">感知、理解与交互</span>。重点研究物体目标导航。
-                </p>
-                <div style="background: #000; color: #23A094; padding: 1rem; margin-top: 1rem; font-size: 0.85rem; border: 2px solid #fff;">
-                  <p style="margin: 0;">+ 多模态融合 / 场景记忆建模</p>
-                  <p style="margin: 5px 0;">+ 语义地图构建 / 动态决策</p>
-                  <p style="margin: 0;">+ 跨模态语义对齐</p>
-                </div>
-                <p style="margin-top: 1rem; font-size: 0.9rem; font-weight: bold;">
-                  愿景: 推动具身智能从感知走向认知。
-                </p>
-              </div>
-              <div class="neo-scroll-text" style="border-top: 3px solid #000; background: #fff; padding: 0.5rem; font-size: 0.8rem; font-weight: bold;">
-                 <p>服务机器人、智能家居、自主探索 ➔ 提升未知环境探索效率 ➔ 长期任务执行鲁棒性</p>
-              </div>
-            </div>
-
-          </div>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+        .neo-wrapper { --neo-shadow: 6px 6px 0px 0px #000; --neo-border: 3px solid #000; }
+        .neo-card { transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); border: var(--neo-border); box-shadow: var(--neo-shadow); }
+        .neo-card:hover { transform: translate(-4px, -4px); box-shadow: 10px 10px 0px 0px #000 !important; }
+        .neo-scroll-text { white-space: nowrap; overflow: hidden; box-sizing: border-box; }
+        .neo-scroll-text p { display: inline-block; padding-left: 100%; animation: neo-marquee 20s linear infinite; margin: 0; }
+        @keyframes neo-marquee { 0% { transform: translate(0, 0); } 100% { transform: translate(-100%, 0); } }
+        @media (max-width: 768px) { .neo-grid { grid-template-columns: 1fr !important; } }
+        </style>
+        <div class="neo-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; padding: 1rem;">
+        <!-- Card 1 -->
+        <div class="neo-card" style="background: #FF90E8; position: relative; display: flex; flex-direction: column;">
+        <div style="border-bottom: 3px solid #000; padding: 0.8rem; background: #fff; display: flex; justify-content: space-between; align-items: center;">
+        <span style="font-weight: 900; font-size: 1rem;">01 // FOOD_COMPUTING</span>
+        <span style="font-size: 1.5rem;">🍽️</span>
+        </div>
+        <div style="padding: 1.5rem; flex-grow: 1;">
+        <h3 style="font-weight: 900; font-size: 1.6rem; margin: 0 0 1rem 0; text-transform: uppercase; line-height: 1.2;">多模态视觉智能<br>& 食品计算</h3>
+        <p style="font-weight: bold; margin-bottom: 1rem; text-align: justify; font-size: 0.95rem; line-height: 1.6;">面向计算机视觉、多模态学习与人工智能的前沿研究。探索图像、视频、文本等异构数据的<span style="background: #fff; padding: 0 4px; border: 2px solid #000;">协同建模</span>与<span style="background: #fff; padding: 0 4px; border: 2px solid #000;">跨模态对齐</span>。</p>
+        <div style="background: #000; color: #FF90E8; padding: 1rem; margin-top: 1rem; font-size: 0.85rem; border: 2px solid #fff;">
+        <p style="margin: 0;">+ 细粒度识别 / 目标检测</p>
+        <p style="margin: 5px 0;">+ 跨模态检索 / 开放词汇识别</p>
+        <p style="margin: 0;">+ 视觉语言模型 / 知识增强</p>
+        </div>
+        <p style="margin-top: 1rem; font-size: 0.9rem; font-weight: bold;">应用: 智能餐饮、健康管理、饮食文化计算。</p>
+        </div>
+        <div class="neo-scroll-text" style="border-top: 3px solid #000; background: #fff; padding: 0.5rem; font-size: 0.8rem; font-weight: bold;">
+        <p>构建面向食物图像理解、食谱解析与营养估算的智能系统 ➔ 支持健康管理与农业生产 ➔ 引入大模型与知识图谱</p>
+        </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="neo-card" style="background: #23A094; position: relative; display: flex; flex-direction: column;">
+        <div style="border-bottom: 3px solid #000; padding: 0.8rem; background: #fff; display: flex; justify-content: space-between; align-items: center;">
+        <span style="font-weight: 900; font-size: 1rem;">02 // EMBODIED_AI</span>
+        <span style="font-size: 1.5rem;">🤖</span>
+        </div>
+        <div style="padding: 1.5rem; flex-grow: 1;">
+        <h3 style="font-weight: 900; font-size: 1.6rem; margin: 0 0 1rem 0; text-transform: uppercase; line-height: 1.2;">具身智能<br>(Embodied AI)</h3>
+        <p style="font-weight: bold; margin-bottom: 1rem; text-align: justify; font-size: 0.95rem; line-height: 1.6;">聚焦智能体在三维真实环境中的<span style="background: #fff; padding: 0 4px; border: 2px solid #000;">感知、理解与交互</span>。重点研究物体目标导航。</p>
+        <div style="background: #000; color: #23A094; padding: 1rem; margin-top: 1rem; font-size: 0.85rem; border: 2px solid #fff;">
+        <p style="margin: 0;">+ 多模态融合 / 场景记忆建模</p>
+        <p style="margin: 5px 0;">+ 语义地图构建 / 动态决策</p>
+        <p style="margin: 0;">+ 跨模态语义对齐</p>
+        </div>
+        <p style="margin-top: 1rem; font-size: 0.9rem; font-weight: bold;">愿景: 推动具身智能从感知走向认知。</p>
+        </div>
+        <div class="neo-scroll-text" style="border-top: 3px solid #000; background: #fff; padding: 0.5rem; font-size: 0.8rem; font-weight: bold;">
+        <p>服务机器人、智能家居、自主探索 ➔ 提升未知环境探索效率 ➔ 长期任务执行鲁棒性</p>
+        </div>
+        </div>
+        </div>
         </div>
     design:
       columns: '1'
