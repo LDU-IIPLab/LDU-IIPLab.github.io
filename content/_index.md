@@ -151,7 +151,7 @@ sections:
   - block: features
     content:
       title: 研究方向
-      subtitle: ''
+      text:
       items:
         - name: 多模态视觉智能与食品计算
           description: |
@@ -186,7 +186,7 @@ sections:
           icon_pack: fas
     design:
       columns: '1'
-      view: 1 # 1=List, 2=Compact, 3=Card, 4=Quote
+      view: 1 # 1=List, 2=Compact, 3=Card, 4=Citation
   
   # - block: markdown
   #   content:
