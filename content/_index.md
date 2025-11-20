@@ -96,7 +96,8 @@ sections:
               brightness: 1
             #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
             size: contain
-          position: center
+            # Image focal point. Options include `left`, `center` (default), or `right`.
+            position: center
 
       - title: 
         content: 
@@ -108,7 +109,8 @@ sections:
               brightness: 1
             #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
             size: contain
-          position: center
+            # Image focal point. Options include `left`, `center` (default), or `right`.
+            position: center
       
     design:
       spacing:
@@ -146,53 +148,45 @@ sections:
       view: showcase   
       columns: '1'
       
-  - block: markdown
+  - block: features
     content:
       title: 研究方向
       subtitle: ''
-      text: |
-        <div class="tech-glass-wrapper" style="font-family: system-ui, -apple-system, sans-serif; color: #fff; overflow: hidden; border-radius: 16px; background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); position: relative;">
-        <!-- Decorative Blobs -->
-        <div style="position: absolute; top: -10%; left: -10%; width: 40%; height: 40%; background: radial-gradient(circle, rgba(56,189,248,0.4) 0%, rgba(0,0,0,0) 70%); border-radius: 50%; filter: blur(40px);"></div>
-        <div style="position: absolute; bottom: -10%; right: -10%; width: 40%; height: 40%; background: radial-gradient(circle, rgba(139,92,246,0.4) 0%, rgba(0,0,0,0) 70%); border-radius: 50%; filter: blur(40px);"></div>
-        <div class="glass-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; padding: 2rem; position: relative; z-index: 1;">
-        <!-- Card 1 -->
-        <div class="glass-card" style="background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 16px; padding: 2rem; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
-        <h3 style="color: #38bdf8; font-size: 1.5rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 10px;">
-        <span style="font-size: 1.8rem;">🍽️</span> 多模态视觉智能<br>与食品计算
-        </h3>
-        <p style="color: #cbd5e1; font-size: 0.95rem; line-height: 1.7; text-align: justify; margin-bottom: 1rem;">
-        面向计算机视觉、多模态学习与人工智能的前沿研究。重点探索图像、视频、文本等异构数据的<span style="color: #7dd3fc; font-weight: bold;">协同建模</span>、<span style="color: #7dd3fc; font-weight: bold;">跨模态对齐</span>与<span style="color: #7dd3fc; font-weight: bold;">语义理解</span>。
-        </p>
-        <p style="color: #94a3b8; font-size: 0.9rem; margin-bottom: 1rem;">
-        应用于<span style="color: #e2e8f0;">智能餐饮、健康管理、饮食文化计算</span>，构建面向食物图像理解与营养估算的智能系统。
-        </p>
-        <div style="margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
-        <span style="background: rgba(56, 189, 248, 0.15); color: #7dd3fc; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem;">细粒度识别</span>
-        <span style="background: rgba(56, 189, 248, 0.15); color: #7dd3fc; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem;">视觉语言模型</span>
-        <span style="background: rgba(56, 189, 248, 0.15); color: #7dd3fc; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem;">大模型融合</span>
-        </div>
-        </div>
-        <!-- Card 2 -->
-        <div class="glass-card" style="background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 16px; padding: 2rem; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
-        <h3 style="color: #a78bfa; font-size: 1.5rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 10px;">
-        <span style="font-size: 1.8rem;">🤖</span> 具身智能<br>(Embodied AI)
-        </h3>
-        <p style="color: #cbd5e1; font-size: 0.95rem; line-height: 1.7; text-align: justify; margin-bottom: 1rem;">
-        聚焦智能体在三维真实环境中的<span style="color: #c4b5fd; font-weight: bold;">感知、理解与交互</span>。重点研究物体目标导航，通过多模态融合与场景记忆建模，提升智能体探索效率。
-        </p>
-        <p style="color: #94a3b8; font-size: 0.9rem; margin-bottom: 1rem;">
-        致力于推动具身智能从感知走向认知，服务于<span style="color: #e2e8f0;">服务机器人、智能家居、自主探索</span>等领域。
-        </p>
-        <div style="margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
-        <span style="background: rgba(139, 92, 246, 0.15); color: #c4b5fd; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem;">物体目标导航</span>
-        <span style="background: rgba(139, 92, 246, 0.15); color: #c4b5fd; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem;">三维感知</span>
-        <span style="background: rgba(139, 92, 246, 0.15); color: #c4b5fd; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem;">语义地图</span>
-        </div>
-        </div>
-        </div>
-        </div>
+      items:
+        - name: 多模态视觉智能与食品计算
+          description: |
+            面向计算机视觉、多模态学习与人工智能的前沿研究，重点探索图像、视频、文本等异构数据的**协同建模、跨模态对齐与语义理解机制**。
+            
+            **应用场景**：
+            *   构建面向食物图像理解、食谱解析与营养估算的智能系统
+            *   支持健康管理、智能餐饮、农业生产和饮食文化计算
+            
+            **核心技术**：
+            *   细粒度识别 / 目标检测与分割
+            *   跨模态检索 / 开放词汇识别
+            *   视觉语言模型 / 知识增强表征学习
+          icon: utensils
+          icon_pack: fas
+          
+        - name: 具身智能 (Embodied AI)
+          description: |
+            聚焦智能体在三维真实环境中的**感知、理解与交互能力**，重点研究物体目标导航。
+            
+            **核心目标**：
+            *   提升智能体在未知环境中的探索效率
+            *   增强目标定位能力与长期任务执行鲁棒性
+            
+            **关键挑战**：
+            *   跨模态语义对齐
+            *   场景记忆建模 / 语义地图构建
+            *   动态决策规划
+            
+            **应用领域**：服务机器人、智能家居、自主探索。
+          icon: robot
+          icon_pack: fas
+    design:
       columns: '1'
+      view: 1 # 1=List, 2=Compact, 3=Card, 4=Quote
   
   # - block: markdown
   #   content:
@@ -252,4 +246,3 @@ sections:
           # Text color (true=light, false=dark, or remove for the dynamic theme color).
           text_color_light: true
 ---
-
