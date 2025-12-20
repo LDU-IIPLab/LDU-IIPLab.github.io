@@ -42,8 +42,5 @@ tags:
 - Lightweight
 - Deep Learning
 - Computer Vision
-links:
-- name: URL
-  url: https://www.sciencedirect.com/science/article/pii/S0957417425022559
 url_code: 'https://github.com/Axboexx/CGViT'
 ---
