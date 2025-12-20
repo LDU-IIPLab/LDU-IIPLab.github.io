@@ -13,5 +13,5 @@ publishDate: '2025-12-19T07:43:37.952555Z'
 publication_types:
 - article-journal
 publication: '*Pattern Recognition*'
-doi: https://doi.org/10.1016/j.patcog.2025.112928
+doi: 10.1016/j.patcog.2025.112928
 ---

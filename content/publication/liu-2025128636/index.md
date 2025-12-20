@@ -14,7 +14,7 @@ publishDate: '2025-06-18T09:12:26.399068Z'
 publication_types:
 - article-journal
 publication: '*Expert Systems with Applications*'
-doi: https://doi.org/10.1016/j.eswa.2025.128636
+doi: 10.1016/j.eswa.2025.128636
 abstract: Recognizing fruit and vegetable is crucial for improving processing efficiency,
   automating harvesting, and facilitating dietary nutrition management. The diverse
   applications of fruit and vegetable recognition require deployment on end devices
