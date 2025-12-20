@@ -12,7 +12,7 @@ date: '2024-03-09'
 publication_types:
 - article-journal
 publication: '*食品科学*'
-
+doi: 10.7506/spkx1002-6630-20231231-270
 links:
 - name: 食品科学杂志报导
   url: https://c.m.163.com/news/a/JJHU85410530N4P3.html

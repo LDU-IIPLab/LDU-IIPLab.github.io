@@ -19,16 +19,16 @@
 
 ### 添加新发表的论文
 
-1. 从引用管理器（例如Zotero）中，将新的论文导出Bibtex格式的引用，添加到 [`publications.bib`](publications.bib) 中。
-2. 提交修改。等待 [Import Publications From Bibtex](https://github.com/LDU-IIPLab/LDU-IIPLab.github.io/actions/workflows/import-publications.yml) 流程完成后，github-actions bot 会发起一个 pull request 以导入新的论文。管理员同意后，新的论文将提交为[`content\publication`](content\publication)目录下的一个文件夹（文件夹名为其导出的Bibtex中的引用标记）。
+1. 导出论文的Bibtex格式的引用，添加到 [`publications.bib`](publications.bib) 中，提交修改。
+2. 等待 [Import Publications From Bibtex](https://github.com/LDU-IIPLab/LDU-IIPLab.github.io/actions/workflows/import-publications.yml) 流程完成后，github-actions bot 会发起一个 pull request 以导入新的论文。管理员同意后，新的论文将提交为[`content\publication`](content\publication)目录下的一个文件夹（文件夹名为其导出的Bibtex中的引用标记）。
 3. 检查文件夹中的 `index.md` 文件，修改其中的内容：
     - 修改 `authors` 中的中文姓名为其对应的英文姓名以实现作者主页对应。
     - 修正 `date` 字段为正确的发表时间
-    - 如果论文公开了源代码，应添加 `url_code` 字段，指向源代码仓库（可参照  [`content\publication\sheng-2024-lightweight\index.md`](content\publication\sheng-2024-lightweight\index.md) 修改。
-    - 如果论文公开了数据集，应添加 `url_dataset` 字段，指向数据集仓库。
+    - 已正式发表的论文应添加 `doi` 字段
+    - 如果论文公开了源代码，应添加 `url_code` 字段，指向源代码仓库（可参照  [`content\publication\sheng-2024-lightweight\index.md`](content\publication\sheng-2024-lightweight\index.md) 修改）。
+    - 如果论文公开了数据集，应添加 `url_dataset` 字段，指向数据集。
     - 如果论文有可在线获取的 pdf，应添加 `url_pdf` 字段，指向 pdf 链接。或直接将 pdf 文件放入文件夹中，与文件夹同名。
-4. 将论文的标题作者截图命名为 `featured` 放入文件夹中作为封面。
-5. 提交修改。
+4. 提交修改。
 
 ### 添加新闻
 

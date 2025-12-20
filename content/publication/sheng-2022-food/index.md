@@ -10,4 +10,5 @@ publishDate: '2024-08-03T13:27:40.720721Z'
 publication_types:
 - article-journal
 publication: '*International Journal of Intelligent Systems*'
+doi: 10.1002/int.23050
 ---

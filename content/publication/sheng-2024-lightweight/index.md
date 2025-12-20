@@ -17,6 +17,7 @@ date: '2024-01-08'
 publication_types:
 - article-journal
 publication: '*Nutrients*'
+doi: 10.3390/nu16020200
 
 # links:
 # - name: ""
@@ -31,7 +32,7 @@ url_source: ''
 url_video: ''
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   caption: ''
   focal_point: ""

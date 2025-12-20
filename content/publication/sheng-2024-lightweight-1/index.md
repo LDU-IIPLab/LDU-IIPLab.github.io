@@ -13,5 +13,6 @@ publishDate: '2024-08-03T13:35:50.793262Z'
 publication_types:
 - article-journal
 publication: '*IEEE Transactions on AgriFood Electronics*'
+doi: 10.1109/TAFE.2024.3386713
 url_code: 'https://github.com/sdeven95/EVNets'
 ---
