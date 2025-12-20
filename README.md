@@ -1,5 +1,5 @@
-# Intelligent Information Processing Laboratory
-这是鲁东大学智能信息处理实验室的主页源代码仓库。
+# Intelligent Information Processing Laboratory of Ludong University
+# 鲁东大学智能信息处理实验室
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LDU-IIPLab/LDU-IIPLab.github.io)
 
