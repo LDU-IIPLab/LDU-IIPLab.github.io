@@ -6,11 +6,12 @@ authors:
 - Fangyuan Yao
 - Guorui Sheng
 - Shuqiang Jiang
-date: '2026-01-01'
+date: '2026-01-12'
 publishDate: '2026-02-05T11:30:23.166167Z'
 publication_types:
 - paper-conference
 publication: '*Pattern Recognition and Computer Vision*'
+doi: 10.1007/978-981-95-5761-5_12
 abstract: Existing asymmetric retrieval methods primarily rely on aligning global
   features to transfer semantic information. However, they often struggle to convey
   knowledge effectively across different network layers, limiting fine-grained alignment

@@ -9,7 +9,7 @@ authors:
 - Guorui Sheng
 - Weiqing Min
 - Shuqiang Jiang
-date: '2026-01-01'
+date: '2026-02-03'
 publishDate: '2026-02-05T11:22:40.248808Z'
 publication_types:
 - article-journal
@@ -35,7 +35,4 @@ abstract: 'Food image recognition holds significant application potential in the
   of 91.46%, 91.59%, and 75.33%, respectively, representing a 1.50%–3.9% improvement
   over MobileViTv2. Compared to MobileViTv2, DPFA-Net improves performance by 1.50–3.9%,
   fully validating the effectiveness and superiority of the DPFA architecture.'
-links:
-- name: URL
-  url: https://doi.org/10.1007/s00530-025-02143-3
 ---
