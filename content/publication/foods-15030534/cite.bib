@@ -1,0 +1,13 @@
+@article{foods15030534,
+ abstract = {Fine-grained food image segmentation is essential for accurate dietary assessment and nutritional analysis, yet remains highly challenging due to ambiguous boundaries, inter-class similarity, and dense layouts of meals containing many different ingredients in real-world settings. Existing methods based solely on CNNs, Transformers, or Mamba architectures often fail to simultaneously preserve fine-grained local details and capture contextual dependencies over long distances. To address these limitations, we propose HDF (Hybrid Decoder for Food Image Segmentation), a novel decoding framework built upon the MambaVision backbone. Our approach first employs a convolution-based feature pyramid network (FPN) to extract multi-stage features from the encoder. These features are then thoroughly fused across scales using a Cross-Layer Mamba module that models inter-level dependencies with linear complexity. Subsequently, an Attention Refinement module integrates global semantic context through spatial–channel reweighting. Finally, a Food Co-occurrence Module explicitly enhances food-specific semantics by learning dynamic co-occurrence patterns among categories, improving segmentation of visually similar or frequently co-occurring ingredients. Evaluated on two widely used, high-quality benchmarks, FoodSeg103 and UEC-FoodPIX Complete, which are standard datasets for fine-grained food segmentation, HDF achieves a 52.25% mean Intersection-over-Union (mIoU) on FoodSeg103 and a 76.16% mIoU on UEC-FoodPIX Complete, outperforming current state-of-the-art methods by a clear margin. These results demonstrate that HDF’s hybrid design and explicit co-occurrence awareness effectively address key challenges in food image segmentation, providing a robust foundation for practical applications in dietary logging, nutritional estimation, and food safety inspection.},
+ article-number = {534},
+ author = {Wang, Shenglong and Sheng, Guorui},
+ doi = {10.3390/foods15030534},
+ issn = {2304-8158},
+ journal = {Foods},
+ number = {3},
+ title = {Hybrid Decoding with Co-Occurrence Awareness for Fine-Grained Food Image Segmentation},
+ url = {https://www.mdpi.com/2304-8158/15/3/534},
+ volume = {15},
+ year = {2026}
+}
