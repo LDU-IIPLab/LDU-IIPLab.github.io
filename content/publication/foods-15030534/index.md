@@ -3,7 +3,7 @@ title: Hybrid Decoding with Co-Occurrence Awareness for Fine-Grained Food Image 
 authors:
 - Shenglong Wang
 - Guorui Sheng
-date: '2026-01-01'
+date: '2026-02-03'
 publishDate: '2026-02-05T11:30:23.175822Z'
 publication_types:
 - article-journal
@@ -32,7 +32,4 @@ abstract: Fine-grained food image segmentation is essential for accurate dietary
   effectively address key challenges in food image segmentation, providing a robust
   foundation for practical applications in dietary logging, nutritional estimation,
   and food safety inspection.
-links:
-- name: URL
-  url: https://www.mdpi.com/2304-8158/15/3/534
 ---
