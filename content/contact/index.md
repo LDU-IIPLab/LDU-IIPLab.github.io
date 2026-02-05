@@ -1,18 +1,18 @@
 ---
-title: 加入我们
+title: 联系我们
 
 type: landing
 
 sections:
   - block: contact
     content:
-      title: 加入我们
-      text: '本科生请先加入纳新QQ群'
-        
+      title: 联系我们
+      # text: ''
+
       email: shengguorui@ldu.edu.cn
       # phone: 888 888 88 88
       address:
-        street: 芝罘区红旗中路186号鲁东大学北区21号教学楼
+        street: 芝罘区红旗中路186号鲁东大学北区21号教学楼410室
         city: 烟台市
         region: 山东省
         postcode: "264025"
@@ -29,23 +29,23 @@ sections:
       contact_links:
        - icon: weixin
          icon_pack: fab
-         name: 食品计算小组(Food Computing)公众号
+         name: 食品计算小组（Food Computing）公众号
          link: 'https://mp.weixin.qq.com/s/NSwdzOne7WQ72_jf9Y3ftg'
-       - icon: qq
-         icon_pack: fab
-         name: 本科生纳新群 941435778
-         link: https://qm.qq.com/q/FIaYuOdCms
-    
+      #  - icon: qq
+      #    icon_pack: fab
+      #    name: 本科生纳新群 941435778
+      #    link: https://qm.qq.com/q/FIaYuOdCms
+
       # Automatically link email and phone or display as text?
       autolink: true
-    
+
       # # Email form provider
       # form:
       #   provider: netlify
       #   netlify:
       #     # Enable CAPTCHA challenge to reduce spam?
       #     captcha: false
-          
+
     design:
       columns: '1'
       # spacing:
