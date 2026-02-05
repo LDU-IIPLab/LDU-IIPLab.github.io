@@ -182,7 +182,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./contact/" cta_text="加入我们 →" %}}
+        {{% cta cta_link="./contact/" cta_text="联系我们 →" %}}
     design:
       columns: '1'
       background:
