@@ -20,7 +20,7 @@ sections:
 
   - block: people
     content:
-      title:
+      title: 研究生
       user_groups:
           - 2022级研究生
           - 2023级研究生
