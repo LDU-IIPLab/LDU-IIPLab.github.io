@@ -1,6 +1,6 @@
 ---
 title: 2026年智能信息处理实验室拟招收 081200 计算机学硕与 085410 人工智能专硕调剂
-date: 2026-02-23
+date: 2026-02-24
 # draft: true
 
 # To use Cover image, place an image named `featured.jpg/png` in your page's folder.
