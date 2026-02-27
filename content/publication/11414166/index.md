@@ -37,4 +37,5 @@ tags:
 - Visualization;Semantics;Zero shot learning;Videos;Grounding;Vectors;Object detection;Feature
   extraction;Training;Iterative methods;Food Computing;Zero-Shot Learning;Zero-Shot
   Detection;Cross-Modal Fusion;Food Detection
+url_code: 'https://github.com/Niko000202/SymFood0202'
 ---
