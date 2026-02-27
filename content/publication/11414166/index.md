@@ -1,13 +1,12 @@
 ---
-title: 'SyMFood: Synergistic Multi-Modal Prompting for Fine-Grained Zero-Shot Food
-  Detection'
+title: 'SyMFood: Synergistic Multi-Modal Prompting for Fine-Grained Zero-Shot Food Detection'
 authors:
 - Xinlong Wang
 - Weiqing Min
 - Shoulong Liu
 - Guorui Sheng
 - Shuqiang Jiang
-date: '2026-00-01'
+date: '2026-02-26'
 publishDate: '2026-02-27T09:49:46.301978Z'
 publication_types:
 - article-journal
