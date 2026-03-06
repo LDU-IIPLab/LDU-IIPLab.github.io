@@ -7,7 +7,7 @@ authors:
 - Shangzihan Wang
 - Haowen Meng
 - Guorui Sheng
-date: '2026-01-01'
+date: '2026-03-05'
 publishDate: '2026-03-06T01:08:20.629856Z'
 publication_types:
 - article-journal
@@ -47,7 +47,4 @@ tags:
 - Lightweight
 - Focus token
 - Vision transformer
-links:
-- name: URL
-  url: https://www.sciencedirect.com/science/article/pii/S1568494626003790
 ---
