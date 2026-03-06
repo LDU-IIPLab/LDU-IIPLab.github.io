@@ -37,4 +37,4 @@ image:
 【腾讯文档】2026年鲁东大学智能信息处理实验室 调剂申请表
 https://docs.qq.com/form/page/DUUdUTWRoZmdyZmdL
 
-并添加微信 15753724366 注明个人信息
+并添加微信 15753724366 备注个人信息
