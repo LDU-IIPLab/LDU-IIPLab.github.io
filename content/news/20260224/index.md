@@ -24,6 +24,7 @@ image:
 - [鲁东大学2026年硕士研究生招生章程及招生专业目录](https://grad.ldu.edu.cn/info/1028/4042.htm)
 - [鲁东大学2026年硕士研究生招生复试录取工作方案](https://grad.ldu.edu.cn/info/1028/4170.htm)
 - [鲁东大学2026年硕士研究生招生考试第一志愿考生复试通知](https://grad.ldu.edu.cn/info/1028/4172.htm)
+- [鲁东大学2026年硕士研究生招生各学院复试办法](https://grad.ldu.edu.cn/info/1028/4173.htm)
 
 根据官方公告，学硕调剂缺额25+，专硕调剂缺额17+
 
