@@ -26,7 +26,7 @@ image:
 - [鲁东大学2026年硕士研究生招生考试第一志愿考生复试通知](https://grad.ldu.edu.cn/info/1028/4172.htm)
 - [鲁东大学2026年硕士研究生招生各学院复试办法](https://grad.ldu.edu.cn/info/1028/4173.htm)
 - [鲁东大学2026年硕士研究生招生预计接收调剂专业](https://grad.ldu.edu.cn/info/1028/4193.htm)
-- [鲁东大学计算机与人工智能学院2026年研究生拟调剂公告](https://mp.weixin.qq.com/s/_d0824qUUBHfrFxRB6ijWw)
+- [鲁东大学计算机与人工智能学院2026年硕士研究生招生预计接收调剂专业](https://mp.weixin.qq.com/s/GGMLsGEbonJYeMmeB-i5Fw)
 
 计算机科学与技术学硕调剂缺额25+，人工智能专硕调剂缺额17+
 
