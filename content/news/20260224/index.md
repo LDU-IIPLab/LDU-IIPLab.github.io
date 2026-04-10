@@ -1,7 +1,7 @@
 ---
 title: 实验室拟招收 2026 考研 081200 计算机学硕与 085410 人工智能专硕
 date: 2026-02-24
-# draft: true
+draft: true
 
 # To use Cover image, place an image named `featured.jpg/png` in your page's folder.
 image:
