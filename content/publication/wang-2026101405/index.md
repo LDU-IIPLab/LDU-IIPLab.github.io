@@ -1,0 +1,39 @@
+---
+title: A comparative study of vision–language models for food ingredient recognition
+  and nutrient estimation
+authors:
+- Shenglong Wang
+- Guorui Sheng
+- Hongfei Yan
+- Weiqing Min
+- Shuqiang Jiang
+date: '2026-01-01'
+publishDate: '2026-04-15T02:06:01.978716Z'
+publication_types:
+- article-journal
+publication: '*Current Research in Food Science*'
+doi: 10.1016/j.crfs.2026.101405
+abstract: 'The accurate assessment of food composition is essential to understanding
+  its nutritional and sensory properties. Traditional dietary assessment methods are
+  often constrained by subjective input and low reproducibility. This study explores
+  the use of Vision–Language Models (VLMs) for automated food composition analysis,
+  focusing on two key tasks: food ingredient recognition and nutrient estimation.
+  We evaluated state-of-the-art VLMs using the Nutrition5K dataset, which contains
+  real-world food images with ingredient-level annotations. To improve model sensitivity
+  to complex food structures, we introduce a progressive multi-view image recognition
+  approach that enhances ingredient recognition. We also propose a prompting strategy
+  using ingredient labels to guide nutrient estimation. Results show that while most
+  VLMs effectively identify primary food components, challenges persist in quantifying
+  nutrient contents, particularly for composite or visually ambiguous dishes. Our
+  findings highlight the promise and limitations of AI-assisted food composition analysis
+  and offer insights for future methods integrating chemical, visual, and computational
+  perspectives.'
+tags:
+- Vision–Language Models
+- Nutritional assessment
+- Food ingredient recognition
+- Nutrient estimation
+links:
+- name: URL
+  url: https://www.sciencedirect.com/science/article/pii/S266592712600105X
+---
