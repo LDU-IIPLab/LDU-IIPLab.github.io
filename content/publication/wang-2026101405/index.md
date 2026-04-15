@@ -7,7 +7,7 @@ authors:
 - Hongfei Yan
 - Weiqing Min
 - Shuqiang Jiang
-date: '2026-01-01'
+date: '2026-04-10'
 publishDate: '2026-04-15T02:06:01.978716Z'
 publication_types:
 - article-journal
@@ -33,7 +33,4 @@ tags:
 - Nutritional assessment
 - Food ingredient recognition
 - Nutrient estimation
-links:
-- name: URL
-  url: https://www.sciencedirect.com/science/article/pii/S266592712600105X
 ---
