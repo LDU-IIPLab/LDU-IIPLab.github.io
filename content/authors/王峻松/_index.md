@@ -29,7 +29,7 @@ education:
   courses:
     - course: 人工智能, 专硕
       institution: 鲁东大学
-      year: 在读
+      year: 2026
     - course: 数据科学与大数据, 工学学士
       institution: 河北地质大学
       year: 2023
@@ -66,7 +66,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 2023级研究生
+  - 已毕业
 ---
 
 王峻松，本科毕业于河北地质大学数据科学与大数据专业，现就读于鲁东大学人工智能专硕。
