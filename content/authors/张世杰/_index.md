@@ -29,7 +29,7 @@ education:
   courses:
     - course: 计算机科学与技术, 学硕
       institution: 鲁东大学
-      year: 在读
+      year: 2026
     - course: 通信工程, 工学学士
       institution: 鲁东大学
       year: 2023
@@ -66,7 +66,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 2023级研究生
+  - 已毕业
 ---
 
 张世杰，本科毕业于鲁东大学通信工程专业，现就读于鲁东大学计算机科学与技术学硕。
