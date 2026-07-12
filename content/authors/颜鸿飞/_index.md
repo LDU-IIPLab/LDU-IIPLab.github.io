@@ -12,7 +12,7 @@ last_name: Yan
 superuser: false
 
 # Role/position
-role: 
+role:
 
 # Organizations/Affiliations
 organizations:
@@ -20,10 +20,10 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
 interests:
-  - Multi-Modal Lifelong Navigation 
+  - Multi-Modal Lifelong Navigation
   - Embodied AI
 
 education:
@@ -67,7 +67,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 2024级研究生
+  - 2024级硕士生
 ---
 
 颜鸿飞，本科毕业于鲁东大学计算机科学与技术专业，现就读于鲁东大学人工智能专硕。

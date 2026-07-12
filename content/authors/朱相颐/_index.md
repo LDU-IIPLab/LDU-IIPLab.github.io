@@ -12,7 +12,7 @@ last_name: Zhu
 superuser: false
 
 # Role/position
-role: 
+role:
 
 # Organizations/Affiliations
 organizations:
@@ -20,7 +20,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
 interests:
   - Object Goal Navigation
@@ -67,7 +67,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 2024级研究生
+  - 2024级硕士生
 ---
 
 朱相颐，本科毕业于鲁东大学信息与电气工程学院电子信息工程专业，现就读于鲁东大学信息与电气工程学院计算机科学与技术学硕。
