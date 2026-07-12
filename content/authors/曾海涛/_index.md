@@ -14,7 +14,7 @@ superuser: false
 # Role/position
 role: 助理研究员
 
-order: 7
+order: 5
 
 # Organizations/Affiliations
 organizations:
