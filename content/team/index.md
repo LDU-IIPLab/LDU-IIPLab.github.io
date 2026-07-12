@@ -28,8 +28,8 @@ sections:
       sort_by: Params.last_name
       sort_ascending: true
     design:
-      show_interests: true
-      show_role: true
+      show_interests: false
+      show_role: false
       show_social: true
 
   - block: people
@@ -41,7 +41,7 @@ sections:
       sort_by: Params.last_name
       sort_ascending: true
     design:
-      show_interests: true
-      show_role: true
+      show_interests: false
+      show_role: false
       show_social: true
 ---
