@@ -70,7 +70,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 教师
+  - 研究人员
 ---
 
 宋新航，男，2017年获中国科学院计算技术研究所博士学位，现任副研究员，硕士生导师。主要研究方向包括场景图像/视频识别、分割、目标检测与机器人导航等。曾在CVPR，AAAI，IJCAI，ACM MM，Trans. on IP，Pattern Recognition等国际知名期刊和会议上以第一作者发表作论文十余篇。

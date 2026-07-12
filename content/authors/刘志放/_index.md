@@ -12,7 +12,7 @@ last_name: Liu
 superuser: false
 
 # Role/position
-role: 
+role:
 
 # Organizations/Affiliations
 organizations:
@@ -20,7 +20,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
 interests:
   - 食品推荐
@@ -66,7 +66,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 2024级研究生
+  - 2024级硕士生
 ---
 
 刘志放，本科毕业于济宁医学院计算机科学与技术专业，现就读于鲁东大学计算机科学与技术学硕。

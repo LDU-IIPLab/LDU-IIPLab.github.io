@@ -69,7 +69,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 教师
+  - 研究人员
 ---
 
 盛国瑞，男，工学博士。2014年博士毕业于南开大学计算机应用技术专业。2017-2018于天津大学计算机科学与技术学院担任千人计划专家Bruce Denby的研究助理，期间受邀赴法国巴黎朗之万研究所进行为期两个月的学术交流。 现就职于鲁东大学信息与电气工程学院人工智能系。
