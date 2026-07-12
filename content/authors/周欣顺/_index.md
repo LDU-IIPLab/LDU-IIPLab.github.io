@@ -66,7 +66,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 2025级硕士生
+  - 2025 级硕士生
 ---
 
 周欣顺，本科毕业于山东第一医科大学计算机科学与技术专业，现就读于鲁东大学计算机科学与技术学硕。

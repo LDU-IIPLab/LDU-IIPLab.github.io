@@ -66,7 +66,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 2026届硕士生
+  - 2026 届硕士生
 ---
 
 王峻松，本科毕业于河北地质大学数据科学与大数据专业，现就读于鲁东大学人工智能专硕。

@@ -66,7 +66,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 2024级硕士生
+  - 2024 级硕士生
 ---
 
 王生龙，本科毕业于山东第一医科大学计算机科学与技术专业，现就读于鲁东大学人工智能专硕。

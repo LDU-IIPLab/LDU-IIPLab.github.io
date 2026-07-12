@@ -66,7 +66,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 2026届硕士生
+  - 2026 届硕士生
 ---
 
 张世杰，本科毕业于鲁东大学通信工程专业，现就读于鲁东大学计算机科学与技术学硕。

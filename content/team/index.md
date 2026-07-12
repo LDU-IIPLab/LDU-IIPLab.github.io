@@ -22,9 +22,9 @@ sections:
     content:
       title: 在读研究生
       user_groups:
-          - 2024级硕士生
-          - 2025级硕士生
-          - 2026级硕士生
+          - 2024 级硕士生
+          - 2025 级硕士生
+          - 2026 级硕士生
       sort_by: Params.last_name
       sort_ascending: true
     design:
@@ -36,8 +36,8 @@ sections:
     content:
       title: 毕业校友
       user_groups:
-          - 2025届硕士生
-          - 2026届硕士生
+          - 2025 届硕士生
+          - 2026 届硕士生
       sort_by: Params.last_name
       sort_ascending: true
     design:

@@ -66,7 +66,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 2025届硕士生
+  - 2025 届硕士生
 ---
 
 Jingru Song received the B.E. degree in Software Engineering from the College of Computer Science, Liaocheng University, Liaocheng, China, in 2022. She is currently pursuing the M.E. degree in Computer Science and Technology at the College of Information and Electrical Engineering, Ludong University, Yantai, China. Her research interests include multimedia processing, computer vision, and food computing.

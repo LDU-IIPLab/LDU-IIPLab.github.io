@@ -66,7 +66,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 2025届硕士生
+  - 2025 届硕士生
 ---
 
 Pindan Cao, currently a Master's student, obtained a Bachelor's degree in Computer Science and Technology from Henan University of Science and Technology in 2022. She is now pursuing a Master's degree in Computer Science and Technology at Ludong University, with research interests in food computing and computer vision.
