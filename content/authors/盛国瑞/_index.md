@@ -14,7 +14,7 @@ superuser: false
 # Role/position
 role: 讲师
 
-order: 7
+order: 4
 
 # Organizations/Affiliations
 organizations:
