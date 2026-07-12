@@ -12,7 +12,7 @@ last_name: Zhang
 superuser: false
 
 # Role/position
-role: 
+role:
 
 # Organizations/Affiliations
 organizations:
@@ -20,7 +20,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
 interests:
   - 食品图像检索
@@ -32,7 +32,7 @@ education:
       year: 2026
     - course: 通信工程, 工学学士
       institution: 鲁东大学
-      year: 2023
+      year: 2022
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -66,7 +66,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 已毕业
+  - 2026届硕士生
 ---
 
 张世杰，本科毕业于鲁东大学通信工程专业，现就读于鲁东大学计算机科学与技术学硕。

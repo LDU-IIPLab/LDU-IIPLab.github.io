@@ -32,7 +32,7 @@ education:
       year: 2026
     - course: 信息管理与信息系统, 工学学士
       institution: 河北北方学院
-      year: 2023
+      year: 2022
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -66,7 +66,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 已毕业
+  - 2026届硕士生
 ---
 
 王鑫龙，本科毕业于河北北方学院信息管理与信息系统专业，现就读于鲁东大学计算机科学与技术学硕。
