@@ -19,7 +19,7 @@ order: 4
 # Organizations/Affiliations
 organizations:
   - name: 鲁东大学
-    url: 'https://xinke.ldu.edu.cn/info/1157/2649.htm'
+    url: 'https://csai.ldu.edu.cn/info/1192/1915.htm'
 
 # Short bio (displayed in user profile at end of posts)
 bio:
