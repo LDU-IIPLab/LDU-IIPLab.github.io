@@ -19,5 +19,5 @@ sections:
       sort_by: Title
       sort_ascending: true
     design:
-      view: showcase
+      view: card
 ---
