@@ -1,6 +1,6 @@
 ---
 title: 全员读博！智能信息处理实验室2026届四名硕士毕业生全部进入高水平大学攻读博士学位
-date: 2026-07-17
+date: 2026-07-01
 summary: 近日，智能信息处理实验室2026届4名硕士毕业生全部成功进入国内高水平大学攻读博士学位，实现博士升学率100%，充分彰显了实验室在科研育人和高层次人才培养方面取得的显著成效。
 
 # To use Cover image, place an image named `featured.jpg/png` in your page's folder.
