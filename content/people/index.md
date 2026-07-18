@@ -1,6 +1,5 @@
 ---
 title: 研究团队
-
 type: landing
 
 sections:

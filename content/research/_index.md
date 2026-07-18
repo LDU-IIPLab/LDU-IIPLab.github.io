@@ -1,5 +1,4 @@
 ---
-# 研究方向以图片卡片展示。卡片内容位于 content/research/ 的两个子目录中。
 title: 研究方向
 type: landing
 
