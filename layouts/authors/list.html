@@ -1,0 +1,65 @@
+{{- define "main" -}}
+
+{{/* Author profile page. */}}
+
+{{/* If an account has not been created for this user, just display their name as the title. */}}
+{{ if not .File }}
+<div class="universal-wrapper pt-3">
+  <h1>{{ .Title }}</h1>
+</div>
+{{ end }}
+
+<section id="profile-page" class="pt-5">
+  <div class="container">
+    {{/* Show the About block if an account exists for this user. */}}
+    {{/* TODO: remove dependency on v1 blocks. Either migrate to v2 blocks(?) or directly implement layout here. */}}
+    {{ if .File }}
+      {{ $widget := "blocks/v1/about.html" }}
+      {{ $username := (path.Base .File.Dir) }}{{/* Alternatively, use `index .Params.authors 0` */}}
+      {{ $params := dict "wcPage" $ "wcBlock" . "author" $username }}
+      {{ partial $widget $params }}
+    {{end}}
+
+    {{/* Match content by both the Chinese display name and the English profile name. */}}
+    {{ $authorNames := slice (lower .Title) }}
+    {{ if .File }}
+      {{ $englishName := strings.TrimSpace (printf "%s %s" (.Params.first_name | default "") (.Params.last_name | default "")) }}
+      {{ with $englishName }}
+        {{ $authorNames = $authorNames | append (lower .) }}
+      {{ end }}
+      {{ range .Params.publication_names }}
+        {{ $authorNames = $authorNames | append (lower .) }}
+      {{ end }}
+    {{ end }}
+
+    {{ $query := slice }}
+    {{ range .Site.RegularPages.ByDate.Reverse }}
+      {{ $contentPage := . }}
+      {{ $isAuthor := false }}
+      {{ range $contentPage.Params.authors }}
+        {{ if in $authorNames (lower (printf "%v" .)) }}
+          {{ $isAuthor = true }}
+        {{ end }}
+      {{ end }}
+      {{ if $isAuthor }}
+        {{ $query = $query | append $contentPage }}
+      {{ end }}
+    {{ end }}
+
+    {{ $count := len $query }}
+    {{ if $count }}
+    <div class="article-widget content-widget-hr">
+      <h3>{{ i18n "user_profile_latest" | default "Latest" }}</h3>
+      <ul>
+        {{ range $query }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+{{- end -}}
