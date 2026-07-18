@@ -11,11 +11,6 @@ sections:
         欢迎围绕食品计算、智能体和具身导航开展学术交流与科研合作，也欢迎有志于相关方向的同学来信咨询。
       image:
         filename: banner4.png
-      cta:
-        label: 认识研究团队
-        url: ../team/
-        icon_pack: fas
-        icon: users
     design:
       spacing:
         padding: ['56px', '0', '56px', '0']
