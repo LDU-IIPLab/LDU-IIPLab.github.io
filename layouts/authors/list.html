@@ -23,7 +23,7 @@
     {{/* Match content by both the Chinese display name and the English profile name. */}}
     {{ $authorNames := slice (lower .Title) }}
     {{ if .File }}
-      {{ $englishName := strings.TrimSpace (printf "%s %s" (.Params.first_name | default "") (.Params.last_name | default "")) }}
+      {{ $englishName := trim (printf "%s %s" (.Params.first_name | default "") (.Params.last_name | default "")) " " }}
       {{ with $englishName }}
         {{ $authorNames = $authorNames | append (lower .) }}
       {{ end }}
