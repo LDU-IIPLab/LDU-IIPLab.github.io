@@ -19,6 +19,5 @@ sections:
       sort_by: Title
       sort_ascending: true
     design:
-      view: card
-      columns: '2'
+      view: showcase
 ---
