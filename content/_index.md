@@ -11,11 +11,13 @@ sections:
   - block: hero
     content:
       title: |
-        # 智能信息处理实验室
+        # 欢迎来到 **智能信息处理实验室**
       text: |
-        聚焦食品计算与智能体、具身导航研究，推进基础方法、应用实践与人才培养。
+        **鲁东大学智能信息处理实验室**依托鲁东大学计算机与人工智能学院，成立于 2020 年。在**中国科学院计算技术研究所智能信息处理重点实验室**支持下，实验室开展智能信息处理领域的基础研究与应用探索。
+
+        实验室目前主要研究方向为**食品计算与 Agent**和**具身导航**。食品计算方向关注食品识别、检测、分割、检索、多模态理解与领域智能体；具身导航方向关注物体目标导航、多物体目标导航与视觉语言导航。实验室重视研究生与本科生科研能力培养，鼓励学生参与论文研究、学术交流和创新竞赛。
       image:
-        filename: slider/20250819.jpg
+        filename: icon.png
     design:
       spacing:
         padding: ['56px', '0', '56px', '0']
@@ -72,47 +74,87 @@ sections:
   - block: slider
     content:
       slides:
+        - title:
+          content:
+          align: center
+          background:
+            image:
+              filename: slider/20250819.jpg
+              filters:
+                brightness: 1
+              size: contain
+              position: center
+              parallax: false
+            position: center
         - title: 学术交流与团队活动
+          content:
           align: center
           background:
             image:
               filename: slider/20250420.jpg
               filters:
-                brightness: 0.75
-              size: cover
+              brightness: 1
+              size: contain
+              position: center
+              parallax: false
+            position: center
+        - title:
+          content:
+          align: center
+          background:
+            image:
+              filename: slider/20250419.jpg
+              filters:
+                brightness: 1
+              size: contain
               position: center
               parallax: false
             position: center
         - title: 在实践中探索智能技术
+          content:
           align: center
           background:
             image:
               filename: slider/20240713.jpg
               filters:
-                brightness: 0.75
-              size: cover
+              brightness: 1
+              size: contain
               position: center
               parallax: false
             position: center
         - title: 与优秀伙伴共同成长
+          content:
           align: center
           background:
             image:
               filename: slider/20230625.jpg
               filters:
-                brightness: 0.75
-              size: cover
+              brightness: 1
+              size: contain
+              position: center
+              parallax: false
+            position: center
+        - title:
+          content:
+          align: center
+          background:
+            image:
+              filename: slider/20230420.png
+              filters:
+                brightness: 1
+              size: contain
               position: center
               parallax: false
             position: center
     design:
       spacing:
         padding: ['0', '0', '0', '0']
-      is_fullscreen: false
+      # 当前 Hugo Blox 版本依赖全屏模式为 slider 提供稳定高度。
+      is_fullscreen: true
       loop: true
       interval: 5000
 
-  # 最新论文：自动读取 content/publications/。
+  # 最新论文：自动读取 Hugo Blox 约定的 content/publication/。
   - block: collection
     content:
       title: 最新论文
@@ -120,7 +162,7 @@ sections:
       count: 4
       filters:
         folders:
-          - publications
+          - publication
         featured_only: false
         exclude_featured: false
         exclude_future: false
