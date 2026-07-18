@@ -70,7 +70,7 @@ sections:
       view: showcase
       columns: '1'
 
-  # 实验室影像：只保留三张代表性照片，避免整屏轮播拖慢浏览节奏。
+  # 实验室影像：使用 Hugo Blox slider 展示六张代表性照片。
   - block: slider
     content:
       slides:
@@ -93,7 +93,7 @@ sections:
             image:
               filename: slider/20250420.jpg
               filters:
-              brightness: 1
+                brightness: 1
               size: contain
               position: center
               parallax: false
@@ -117,7 +117,7 @@ sections:
             image:
               filename: slider/20240713.jpg
               filters:
-              brightness: 1
+                brightness: 1
               size: contain
               position: center
               parallax: false
@@ -129,7 +129,7 @@ sections:
             image:
               filename: slider/20230625.jpg
               filters:
-              brightness: 1
+                brightness: 1
               size: contain
               position: center
               parallax: false
