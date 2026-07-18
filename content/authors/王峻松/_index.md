@@ -27,6 +27,9 @@ interests:
 
 education:
   courses:
+    - course: 博士研究生
+      institution: 南开大学
+      year: 2026 年起
     - course: 人工智能, 专硕
       institution: 鲁东大学
       year: 2026

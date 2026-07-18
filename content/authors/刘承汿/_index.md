@@ -27,6 +27,9 @@ interests:
 
 education:
   courses:
+    - course: 博士研究生
+      institution: 北京工业大学
+      year: 2026 年起
     - course: 计算机科学与技术, 学硕
       institution: 鲁东大学
       year: 2026
