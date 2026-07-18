@@ -112,9 +112,6 @@ features:
 # 扩展
 
 extensions:
-  decap_cms:
-    branch: main # 分支
-    local_backend: false # 本地后端
   academicons:
     enable: true # 启用Academicons
 

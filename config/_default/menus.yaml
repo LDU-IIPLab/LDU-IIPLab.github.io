@@ -9,7 +9,7 @@ main:
     weight: 1
 
   - name: 研究团队
-    url: team
+    url: people
     weight: 2
 
   - name: 科研成果

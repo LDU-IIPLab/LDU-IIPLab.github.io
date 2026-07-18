@@ -112,7 +112,7 @@ sections:
       loop: true
       interval: 5000
 
-  # 最新论文：自动读取 content/publication/。
+  # 最新论文：自动读取 content/publications/。
   - block: collection
     content:
       title: 最新论文
@@ -120,7 +120,7 @@ sections:
       count: 4
       filters:
         folders:
-          - publication
+          - publications
         featured_only: false
         exclude_featured: false
         exclude_future: false
