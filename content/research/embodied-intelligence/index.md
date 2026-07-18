@@ -1,5 +1,5 @@
 ---
-title: 具身导航
+title: 具身智能
 summary: 研究智能体在三维环境中的视觉感知、语言理解、空间推理、路径规划与行动决策。
 draft: false
 image:
