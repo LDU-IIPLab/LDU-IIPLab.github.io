@@ -12,73 +12,55 @@ sections:
     content:
       slides:
         - title:
-          content:
           align: center
           background:
             image:
               filename: slider/20250819.jpg
-              filters:
-                brightness: 1
               size: cover
               position: center
               parallax: false
             position: center
-        - title: 学术交流与团队活动
-          content:
+        - title:
           align: center
           background:
             image:
               filename: slider/20250420.jpg
-              filters:
-                brightness: 1
               size: cover
               position: center
               parallax: false
             position: center
         - title:
-          content:
           align: center
           background:
             image:
               filename: slider/20250419.jpg
-              filters:
-                brightness: 1
-              size: cover
-              position: center
-              parallax: false
-            position: center
-        - title: 在实践中探索智能技术
-          content:
-          align: center
-          background:
-            image:
-              filename: slider/20240713.jpg
-              filters:
-                brightness: 1
-              size: cover
-              position: center
-              parallax: false
-            position: center
-        - title: 与优秀伙伴共同成长
-          content:
-          align: center
-          background:
-            image:
-              filename: slider/20230625.jpg
-              filters:
-                brightness: 1
               size: cover
               position: center
               parallax: false
             position: center
         - title:
-          content:
+          align: center
+          background:
+            image:
+              filename: slider/20240713.jpg
+              size: cover
+              position: center
+              parallax: false
+            position: center
+        - title:
+          align: center
+          background:
+            image:
+              filename: slider/20230625.jpg
+              size: cover
+              position: center
+              parallax: false
+            position: center
+        - title:
           align: center
           background:
             image:
               filename: slider/20230420.png
-              filters:
-                brightness: 1
               size: cover
               position: center
               parallax: false
