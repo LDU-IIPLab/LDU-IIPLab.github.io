@@ -147,17 +147,31 @@ sections:
   - block: markdown
     content:
       title: 研究方向
-      subtitle: ''
+      subtitle: 面向计算机视觉、多模态学习与人工智能前沿，构建高效、鲁棒的智能系统
       text: |
         <div style="max-width: 1100px; margin: 0 auto;">
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem;">
-            <div style="text-align: justify;">
-              <h3 style="text-align: center; margin-bottom: 1rem;">多模态视觉智能与食品计算</h3>
-              <p>该方向面向计算机视觉、多模态学习与人工智能的前沿研究，重点探索图像、视频、文本等异构数据的协同建模、跨模态对齐与语义理解机制。致力于发展高效、鲁棒、可泛化的视觉智能技术，包括细粒度识别、目标检测与分割、跨模态检索、开放词汇识别、视觉语言模型驱动的知识增强表征学习等方法。在此基础上，我们将多模态视觉智能技术深度应用于食品相关场景，构建面向食物图像理解、食谱解析与营养估算的智能系统，支持健康管理、智能餐饮、农业生产和饮食文化计算等应用需求。通过引入大模型、知识图谱与多源数据融合，旨在提升复杂环境下的语义表达能力、个性化分析能力与跨场景迁移能力。</p>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+            <div style="border: 1px solid #eaecef; border-radius: 12px; padding: 1.75rem;">
+              <div style="font-size: 2.25rem; text-align: center;">🍽️</div>
+              <h3 style="text-align: center; margin: 0.5rem 0 1rem;">多模态视觉智能与食品计算</h3>
+              <p style="color: #555; margin-bottom: 1rem;">面向计算机视觉与多模态学习前沿，探索异构数据协同建模、跨模态对齐与语义理解，并将视觉智能技术深度应用于食品相关场景。</p>
+              <ul style="color: #666; padding-left: 1.2rem; line-height: 1.7; margin-bottom: 1rem;">
+                <li><strong>核心技术：</strong>细粒度识别、检测分割、跨模态检索、视觉语言模型</li>
+                <li><strong>应用系统：</strong>食物图像理解、食谱解析与营养估算</li>
+                <li><strong>社会价值：</strong>健康管理、智能餐饮、饮食文化计算</li>
+              </ul>
+              <a href="./research/" style="font-weight: 600;">了解更多 →</a>
             </div>
-            <div style="text-align: justify;">
-              <h3 style="text-align: center; margin-bottom: 1rem;">具身智能</h3>
-              <p>该方向面向具身人工智能与智能体感知决策的前沿研究，重点探索智能体在三维真实或仿真环境中的多模态感知、语义理解与行为决策机制。致力于发展具备环境理解与自主交互能力的具身智能方法，包括多模态融合感知、场景记忆建模、语义地图构建与目标导向决策等关键技术。在此基础上，我们围绕物体目标导航等典型具身任务，构建能够在未知环境中进行自主探索、目标定位与路径规划的智能体系统，支持服务机器人、智能家居与自主探索等应用场景。通过引入强化学习、大模型驱动的感知与决策方法以及多源数据融合，旨在提升智能体在复杂环境下的泛化能力、长期任务执行能力与跨场景迁移能力。</p>
+            <div style="border: 1px solid #eaecef; border-radius: 12px; padding: 1.75rem;">
+              <div style="font-size: 2.25rem; text-align: center;">🤖</div>
+              <h3 style="text-align: center; margin: 0.5rem 0 1rem;">具身智能</h3>
+              <p style="color: #555; margin-bottom: 1rem;">面向智能体感知决策前沿，探索三维环境中的多模态感知、语义理解与行为决策，构建可自主探索与交互的智能体系统。</p>
+              <ul style="color: #666; padding-left: 1.2rem; line-height: 1.7; margin-bottom: 1rem;">
+                <li><strong>关键任务：</strong>物体目标导航、自主探索、目标定位与路径规划</li>
+                <li><strong>核心创新：</strong>强化学习、大模型驱动感知决策、多源数据融合</li>
+                <li><strong>应用场景：</strong>服务机器人、智能家居、自主探索</li>
+              </ul>
+              <a href="./research/" style="font-weight: 600;">了解更多 →</a>
             </div>
           </div>
         </div>
