@@ -15,6 +15,15 @@ sections:
           align: center
           background:
             image:
+              filename: slider/20260718.jpg
+              size: cover
+              position: center
+              parallax: false
+            position: center
+        - title:
+          align: center
+          background:
+            image:
               filename: slider/20250819.jpg
               size: cover
               position: center
