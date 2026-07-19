@@ -34,8 +34,10 @@ abstract: 'Fine-grained object detection in food computing is severely constrain
   improvement in Harmonic Mean on the FOWA dataset in the genearl ZSD (GZSD) setting.
   The source code will be available at https://github.com/Niko000202/SymFood0202.'
 tags:
-- Visualization;Semantics;Zero shot learning;Videos;Grounding;Vectors;Object detection;Feature
-  extraction;Training;Iterative methods;Food Computing;Zero-Shot Learning;Zero-Shot
-  Detection;Cross-Modal Fusion;Food Detection
+- Food Computing
+- Food Detection
+- Zero-Shot Detection
+- Zero-Shot Learning
+- Cross-Modal Fusion
 url_code: 'https://github.com/Niko000202/SymFood0202'
 ---

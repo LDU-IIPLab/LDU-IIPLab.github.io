@@ -32,7 +32,10 @@ abstract: 'Food image localization and recognition on edge devices is a core tas
   GFLOPs, and 42.0 GFLOPs. The source code will be released upon the formal publication
   of the paper.'
 tags:
-- Radio broadcasting;Frequency modulation;Filtering;Central Processing Unit;Filters;Recommender
-  systems;Information filtering;Location awareness;Mobile communication;LoRa;Computer
-  Vision;Deep Learning;Food Computing;Lightweight;Localization;Recognition
+- Food Computing
+- Food Recognition
+- Food Localization
+- Lightweight
+- Computer Vision
+- Deep Learning
 ---
