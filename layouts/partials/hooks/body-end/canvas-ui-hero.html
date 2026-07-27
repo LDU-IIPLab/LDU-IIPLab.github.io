@@ -1,0 +1,5 @@
+{{ if .IsHome }}
+  {{ $effect := resources.Get "js/canvas-ui-hero.js" | js.Build (dict "format" "iife" "targetPath" "js/canvas-ui-hero-built.js") }}
+  {{ if hugo.IsProduction }}{{ $effect = $effect | minify | fingerprint "md5" }}{{ end }}
+  <script src="{{ $effect.RelPermalink }}" defer></script>
+{{ end }}
