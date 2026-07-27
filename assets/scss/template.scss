@@ -17,3 +17,135 @@
   font-size: 1.125rem;
   line-height: 1.8;
 }
+
+// 首页既有组件的视觉整理：不改变区块顺序、内容或链接。
+.wg-slider .carousel-item {
+  isolation: isolate;
+}
+
+.wg-slider .carousel-item::after {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  content: "";
+  background: linear-gradient(90deg, rgb(12 28 48 / .3), transparent 58%, rgb(12 28 48 / .16));
+  pointer-events: none;
+}
+
+.wg-slider .carousel-item > .position-absolute {
+  z-index: 1;
+}
+
+.wg-slider .carousel-control-prev,
+.wg-slider .carousel-control-next {
+  z-index: 2;
+  width: 4.5rem;
+  opacity: .82;
+  transition: opacity .2s ease, background-color .2s ease;
+}
+
+.wg-slider .carousel-control-prev:hover,
+.wg-slider .carousel-control-next:hover,
+.wg-slider .carousel-control-prev:focus-visible,
+.wg-slider .carousel-control-next:focus-visible {
+  opacity: 1;
+  background: rgb(12 28 48 / .2);
+  outline: none;
+}
+
+.wg-slider .carousel-indicators {
+  z-index: 2;
+  gap: .45rem;
+  margin-bottom: 1.5rem;
+}
+
+.wg-slider .carousel-indicators li {
+  width: 1.9rem;
+  height: .25rem;
+  margin: 0;
+  border: 0;
+  border-radius: 999px;
+  background-color: rgb(255 255 255 / .6);
+  transition: width .2s ease, background-color .2s ease;
+}
+
+.wg-slider .carousel-indicators li.active {
+  width: 3rem;
+  background-color: #fff;
+}
+
+// 新闻 showcase：保留 Hugo Blox 原有内容源，仅增加可读的图文容器与交互状态。
+.wg-slider + .wg-collection .view-showcase {
+  margin-bottom: 2rem !important;
+  padding: 1.5rem;
+  border: 1px solid color-mix(in srgb, var(--bs-primary) 18%, transparent);
+  border-radius: .75rem;
+  background: color-mix(in srgb, var(--bs-body-bg) 94%, var(--bs-primary) 6%);
+  transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+
+.wg-slider + .wg-collection .view-showcase:hover {
+  border-color: color-mix(in srgb, var(--bs-primary) 55%, transparent);
+  box-shadow: 0 .8rem 1.8rem color-mix(in srgb, var(--bs-primary) 10%, transparent);
+  transform: translateY(-.15rem);
+}
+
+.wg-slider + .wg-collection .view-showcase .article-title a {
+  color: inherit;
+  text-decoration-color: color-mix(in srgb, var(--bs-primary) 50%, transparent);
+  text-underline-offset: .2em;
+}
+
+.wg-slider + .wg-collection .view-showcase img {
+  width: 100% !important;
+  max-height: 18rem;
+  border-radius: .5rem;
+  object-fit: cover !important;
+}
+
+// 科研成果 citation：保留原有引用格式与附件按钮，增加扫描和键盘访问时的层级。
+.wg-slider + .wg-collection + .wg-collection .pub-list-item {
+  margin-bottom: .8rem !important;
+  padding: 1rem 1.25rem;
+  border-inline-start: 3px solid color-mix(in srgb, var(--bs-primary) 32%, transparent);
+  border-radius: 0 .5rem .5rem 0;
+  transition: background-color .2s ease, border-color .2s ease;
+}
+
+.wg-slider + .wg-collection + .wg-collection .pub-list-item:hover,
+.wg-slider + .wg-collection + .wg-collection .pub-list-item:focus-within {
+  border-inline-start-color: var(--bs-primary);
+  background: color-mix(in srgb, var(--bs-primary) 7%, transparent);
+}
+
+.wg-slider + .wg-collection + .wg-collection .pub-list-item a:focus-visible,
+.wg-slider + .wg-collection .view-showcase a:focus-visible {
+  border-radius: .15rem;
+  outline: 2px solid var(--bs-primary);
+  outline-offset: .15rem;
+}
+
+@media (max-width: 767.98px) {
+  .wg-slider .carousel-control-prev,
+  .wg-slider .carousel-control-next {
+    width: 3.25rem;
+  }
+
+  .wg-slider + .wg-collection .view-showcase {
+    padding: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wg-slider .carousel-control-prev,
+  .wg-slider .carousel-control-next,
+  .wg-slider .carousel-indicators li,
+  .wg-slider + .wg-collection .view-showcase,
+  .wg-slider + .wg-collection + .wg-collection .pub-list-item {
+    transition: none;
+  }
+
+  .wg-slider + .wg-collection .view-showcase:hover {
+    transform: none;
+  }
+}
