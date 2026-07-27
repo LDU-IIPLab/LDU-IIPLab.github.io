@@ -28,7 +28,7 @@
   inset: 0;
   z-index: 0;
   content: "";
-  background: linear-gradient(90deg, rgb(12 28 48 / .3), transparent 58%, rgb(12 28 48 / .16));
+  background: linear-gradient(90deg, rgba(12, 28, 48, .3), transparent 58%, rgba(12, 28, 48, .16));
   pointer-events: none;
 }
 
@@ -49,7 +49,7 @@
 .wg-slider .carousel-control-prev:focus-visible,
 .wg-slider .carousel-control-next:focus-visible {
   opacity: 1;
-  background: rgb(12 28 48 / .2);
+  background: rgba(12, 28, 48, .2);
   outline: none;
 }
 
@@ -65,7 +65,7 @@
   margin: 0;
   border: 0;
   border-radius: 999px;
-  background-color: rgb(255 255 255 / .6);
+  background-color: rgba(255, 255, 255, .6);
   transition: width .2s ease, background-color .2s ease;
 }
 
