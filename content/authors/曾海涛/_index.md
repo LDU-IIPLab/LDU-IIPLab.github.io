@@ -19,7 +19,7 @@ order: 7
 # Organizations/Affiliations
 organizations:
   - name: 中国科学院计算技术研究所
-    url: 'https://vipl.ict.ac.cn/en/student/paststudent/graduatedDoctors/202205/t20220518_123171.html'
+    url: 'https://vipl.ict.ac.cn/edu/paststudent/doctors/202205/t20220518_123519.html'
 
 # Short bio (displayed in user profile at end of posts)
 bio:
@@ -33,7 +33,7 @@ education:
   courses:
     - course: 博士
       institution: 中国科学院计算技术研究所
-      year: 2020
+      year: 2025
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -51,4 +51,4 @@ user_groups:
   - 研究人员
 ---
 
-曾海涛，2020年中国科学院计算技术研究所博士毕业生，研究方向为场景识别、具身智能。
+曾海涛，2025年中国科学院计算技术研究所博士毕业生，研究方向为场景识别、具身智能。
