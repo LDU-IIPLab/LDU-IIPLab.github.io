@@ -1,0 +1,22 @@
+{{- /* Index author profiles by every known name so pages can resolve an author
+       string to its profile page. The site language is zh while many publications
+       list authors in English, which the theme's authors-taxonomy lookup cannot
+       match to the Chinese-named profiles under content/authors. */ -}}
+
+{{- $profiles_by_name := dict -}}
+{{- with site.GetPage "/authors" -}}
+  {{- range $profile := .Pages -}}
+    {{- /* Skip taxonomy terms without a real profile (the theme uses the same check). */ -}}
+    {{- if eq $profile.Params.superuser nil }}{{ continue }}{{ end -}}
+
+    {{- $names := slice (lower (printf "%v" $profile.Title)) -}}
+    {{- $english_name := trim (printf "%s %s" ($profile.Params.first_name | default "") ($profile.Params.last_name | default "")) " " -}}
+    {{- if $english_name }}{{ $names = $names | append (lower $english_name) }}{{ end -}}
+    {{- with $profile.Params.publication_names -}}
+      {{- range $alias := . }}{{ $names = $names | append (lower (printf "%v" $alias)) }}{{ end -}}
+    {{- end -}}
+
+    {{- range $names }}{{ $profiles_by_name = merge $profiles_by_name (dict . $profile) }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $profiles_by_name -}}

@@ -1,0 +1,23 @@
+{{/* Author profile box */}}
+
+{{/* Don't show author box on normal pages or if author box disabled. */}}
+{{ if ne .Type "page" | and (not (or (eq site.Params.profile false) (eq .Params.profile false))) }}
+
+{{/* Display superuser if superuser exists and page authors are not explicitly specified. */}}
+{{/* Otherwise, display first author if a profile for them exists. */}}
+
+{{ if and (not .Params.authors) (.Scratch.Get "superuser_username") }}
+  {{ $author_page := site.GetPage (printf "/%s/%s" "authors" (.Scratch.Get "superuser_username")) }}
+  {{ partial "page_author_card" (dict "author_page" $author_page) }}
+{{ else if .Params.authors }}
+  {{/* Match each author name against the profile index by Chinese display name or
+      English given+family name, so English-language papers still show author cards. */}}
+  {{ $profiles_by_name := partial "functions/get_author_profiles_by_name" . }}
+  {{ range $name := .Params.authors }}
+    {{ with index $profiles_by_name (lower (printf "%v" $name)) }}
+      {{ partial "page_author_card" (dict "author_page" .) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{end}}{{/* Show profile block */}}

@@ -1,0 +1,27 @@
+{{/* Display author list. */}}
+
+{{- /* Overridden: resolve names via the profile index so English author names link
+       to their Chinese profile page instead of an empty taxonomy term page. */ -}}
+{{- $taxonomy := "authors" }}
+{{ if .Param $taxonomy }}
+  {{ $profiles_by_name := partial "functions/get_author_profiles_by_name" . }}
+  {{ range $index, $value := (.Param $taxonomy) }}
+    {{- $profile := index $profiles_by_name (lower (printf "%v" $value)) -}}
+    {{- $highlight_name := false -}}
+    {{- with $profile }}{{ $highlight_name = .Params.highlight_name | default false }}{{ end -}}
+
+    {{- if gt $index 0 }}, {{ end -}}
+    <span {{ if $highlight_name }}class="author-highlighted"{{end}}>
+      {{- if $profile -}}
+        <a href="{{$profile.RelPermalink}}">{{$value}}</a>
+      {{- else -}}
+        {{$value}}
+      {{- end -}}
+    </span>
+    {{- if isset $.Params "author_notes" -}}
+      {{- with (index $.Params.author_notes $index) -}}
+        <i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="{{.}}"></i>
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
