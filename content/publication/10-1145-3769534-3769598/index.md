@@ -7,7 +7,7 @@ authors:
 - Bolin Yang
 - Guorui Sheng
 - Lili Wang
-date: '2025-01-01'
+date: '2025-12-18'
 publishDate: '2026-08-31T10:25:36.886626Z'
 publication_types:
 - paper-conference
@@ -29,7 +29,4 @@ tags:
 - hash learning
 - spectral-spatial feature learning
 - food computing.
-links:
-- name: URL
-  url: https://doi.org/10.1145/3769534.3769598
 ---

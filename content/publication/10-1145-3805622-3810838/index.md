@@ -8,7 +8,7 @@ authors:
 - Tao Yao
 - Lili Wang
 - Shuqiang Jiang
-date: '2026-01-01'
+date: '2026-06-15'
 publishDate: '2026-08-31T10:25:36.896199Z'
 publication_types:
 - paper-conference
@@ -36,7 +36,4 @@ tags:
 - hash learning
 - multi-frequency information
 - food computing.
-links:
-- name: URL
-  url: https://doi.org/10.1145/3805622.3810838
 ---
