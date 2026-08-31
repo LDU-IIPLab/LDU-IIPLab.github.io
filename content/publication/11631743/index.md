@@ -1,0 +1,37 @@
+---
+title: 'Learning from the Unambiguous: Selective Relation Distillation for Asymmetric
+  Fine-Grained Retrieval'
+authors:
+- Shijie Zhang
+- Weiqing Min
+- Guorui Sheng
+- Tao Yao
+- Shuqiang Jiang
+date: '2026-00-01'
+publishDate: '2026-08-31T11:48:33.344684Z'
+publication_types:
+- article-journal
+publication: '*IEEE Transactions on Circuits and Systems for Video Technology*'
+doi: 10.1109/TCSVT.2026.3718659
+abstract: 'Most deep learning-based image retrieval methods rely on cloud-deployed
+  models, leading to substantial transmission latency and high computational demands
+  for users on edge devices. This limitation is critical in fine-grained retrieval
+  tasks, such as food recognition, which require both high semantic discrimination
+  and low-latency response. Asymmetric image retrieval addresses this issue by deploying
+  lightweight models on the client side. However, transferring knowledge from a powerful
+  teacher network to a structurally distinct lightweight student remains challenging
+  due to semantic misalignment and negative transfer. To overcome this, we propose
+  Multi-layer and Selective Distillation (MLSD), an asymmetric retrieval framework
+  with two key components: (1) a multi-layer distillation mechanism that fuses intermediate
+  teacher–student features to bridge semantic gaps and enable accurate cross-layer
+  transfer; and (2) a decoupled differential relation distillation method that filters
+  ambiguous samples via a binary mask and distills pairwise similarity relations only
+  from unambiguous data, ensuring ranking consistency and reducing noisy supervision.
+  Extensive experiments on benchmark datasets show that MLSD consistently outperforms
+  state-of-the-art asymmetric retrieval methods.'
+tags:
+- Modeling;Image retrieval;Conferences;Ranking (statistics);Computers;Computer vision;Learning
+  (artificial intelligence);Educational institutions;Training;Technology;Asymmetric
+  image retrieval;Knowledge distillation;Fine-grained image retrieval;Edge device
+  deployment
+---
