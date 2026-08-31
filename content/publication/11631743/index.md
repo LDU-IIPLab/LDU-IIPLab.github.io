@@ -30,8 +30,18 @@ abstract: 'Most deep learning-based image retrieval methods rely on cloud-deploy
   Extensive experiments on benchmark datasets show that MLSD consistently outperforms
   state-of-the-art asymmetric retrieval methods.'
 tags:
-- Modeling;Image retrieval;Conferences;Ranking (statistics);Computers;Computer vision;Learning
-  (artificial intelligence);Educational institutions;Training;Technology;Asymmetric
-  image retrieval;Knowledge distillation;Fine-grained image retrieval;Edge device
-  deployment
+  - Modeling
+  - Image retrieval
+  - Conferences
+  - Ranking (statistics)
+  - Computers
+  - Computer vision
+  - Learning (artificial intelligence)
+  - Educational institutions
+  - Training
+  - Technology
+  - Asymmetric image retrieval
+  - Knowledge distillation
+  - Fine-grained image retrieval
+  - Edge device deployment
 ---
