@@ -13,6 +13,7 @@ publication_types:
 - article-journal
 publication: '*Journal of Food Science*'
 doi: 10.1111/1750-3841.71414
+url_code: 'https://github.com/LTaiQin/dpdn-det'
 abstract: ABSTRACT The rapid diversification of food products, frequent packaging
   updates, and seasonal variations pose significant challenges for vision-based food
   inspection and dietary monitoring in real-world food systems. To address the need
