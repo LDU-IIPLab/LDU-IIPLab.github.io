@@ -7,7 +7,7 @@ authors:
 - Bolin Yang
 - Weiqing Min
 - Shuqiang Jiang
-date: '2026-01-01'
+date: '2026-09-04'
 publishDate: '2026-09-08T01:13:34.987717Z'
 publication_types:
 - article-journal
@@ -53,7 +53,4 @@ tags:
 - multiple instance learning
 - open-vocabulary food detection
 - weakly supervised learning
-links:
-- name: URL
-  url: https://ift.onlinelibrary.wiley.com/doi/abs/10.1111/1750-3841.71414
 ---
