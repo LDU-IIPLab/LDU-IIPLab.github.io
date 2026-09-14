@@ -12,7 +12,7 @@ image:
   # Set `preview_only` to `true` to just use the image for thumbnails.
   preview_only: false
   # alt_text: An optional description of the image for screen readers.
-
+---
 # 中国科学院计算技术研究所闵巍庆副研究员莅临实验室指导工作
 
 2026年9月10日，中国科学院计算技术研究所闵巍庆副研究员莅临鲁东大学智能信息处理实验室，与实验室师生开展学术交流，并就科研工作给予指导。
