@@ -1,5 +1,5 @@
 ---
-title: 中国科学院计算技术研究所闵巍庆老师莅临实验室指导工作
+title: 中国科学院计算技术研究所闵巍庆副研究员莅临实验室指导工作
 date: 2026-09-10
 
 # To use Cover image, place an image named `featured.jpg/png` in your page's folder.
