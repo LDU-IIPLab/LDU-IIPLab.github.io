@@ -47,7 +47,7 @@ social:
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/sqs1212
+    link: https://github.com/ybliasdbnhnjlik
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -66,4 +66,4 @@ highlight_name: true
 #   - 2024 级硕士生
 ---
 
-孙庆硕，本科毕业于鲁东大学电子信息工程专业，现就读于鲁东大学计算机科学与技术学硕。
+杨博麟，现就读于鲁东大学人工智能专业。
