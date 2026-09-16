@@ -41,7 +41,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:1357839057@qq.com'
+    link: 'mailto:3082246845@qq.com'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -50,7 +50,7 @@ social:
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/lyc1211
+    link: https://github.com/Zhangh-1
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -69,4 +69,5 @@ user_groups:
   - 2026 级硕士生
 ---
 
-赵兴原，本科毕业于聊城大学软件工程专业，现就读于鲁东大学人工智能专硕。
+
+张恒，本科毕业于聊城大学计算机专业，现就读于鲁东大学计算机人工智能专硕。
