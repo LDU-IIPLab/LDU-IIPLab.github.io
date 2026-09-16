@@ -1,12 +1,12 @@
 ---
 # Display name
-title: 林雁超
+title: 赵兴原
 
-slug: yanchao-lin
+slug: xingyuan-zhao
 
 # Full Name (for SEO)
-first_name: YanChao
-last_name: Lin
+first_name: Xingyuan
+last_name: Zhao
 
 # Is this the primary user of the site?
 superuser: false
@@ -30,9 +30,9 @@ education:
     - course: 人工智能, 专硕
       institution: 鲁东大学
       year: 在读
-    - course: 计算机科学与技术, 工学学士
-      institution: 聊城大学东昌学院
-      year: 2025
+    - course: 软件工程, 工学学士
+      institution: 聊城大学
+      year: 2026
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -41,7 +41,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:1164695686@qq.com'
+    link: 'mailto:1357839057@qq.com'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -66,7 +66,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 2025 级硕士生
+  - 2026 级硕士生
 ---
 
-林雁超，本科毕业于聊城大学东昌学院计算机科学与技术专业，现就读于鲁东大学人工智能专硕。
+赵兴原，本科毕业于聊城大学软件工程专业，现就读于鲁东大学人工智能专硕。
