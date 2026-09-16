@@ -41,7 +41,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:duyaqing@ldu.edu.cn'
+    link: 'mailto:1225722179@qq.com'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -66,7 +66,8 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 2026 级硕士生
+  - 2025 级硕士生
 ---
+
 
 杜亚青，本科毕业于天津师范大学物联网工程专业，现就读于鲁东大学人工智能专硕。
