@@ -2,7 +2,7 @@
 # Display name
 title: 陶亚男
 
-slug: yanann-tao
+slug: yanan-tao
 
 # Full Name (for SEO)
 first_name: Yanan
