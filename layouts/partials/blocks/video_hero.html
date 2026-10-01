@@ -1,16 +1,30 @@
-{{/* 首页视频区块：静音循环播放完整宣传片（HLS 边下边播，默认 1080p），右下角声音开关 */}}
+{{/* 首页视频区块：静音循环播放完整宣传片（HLS 边下边播，默认 1080p），播放/暂停、可拖拽进度条、声音开关 */}}
 {{ $c := .wcBlock.content }}
 
 <div class="video-hero">
   <video class="video-hero-bg" autoplay muted loop playsinline preload="auto" poster="{{ $c.poster | relURL }}"></video>
-  <button type="button" class="video-hero-sound" data-video-sound aria-pressed="false">
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/>
-      <path class="icon-off" d="M16 9l5 6M21 9l-5 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-      <path class="icon-on" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-    </svg>
-    <span>开启声音</span>
-  </button>
+  <div class="video-hero-controls">
+    <button type="button" class="video-hero-toggle" data-video-toggle aria-label="暂停">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path class="icon-pause" d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" fill="currentColor"/>
+        <path class="icon-play" d="M8 5v14l11-7z" fill="currentColor"/>
+      </svg>
+    </button>
+    <span class="video-hero-time" data-video-time>0:00 / 0:00</span>
+    <button type="button" class="video-hero-sound" data-video-sound aria-pressed="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/>
+        <path class="icon-off" d="M16 9l5 6M21 9l-5 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path class="icon-on" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span>开启声音</span>
+    </button>
+    <div class="video-hero-progress" data-video-progress role="slider" tabindex="0" aria-label="播放进度" aria-valuemin="0" aria-valuemax="0" aria-valuenow="0">
+      <div class="video-hero-buffered"></div>
+      <div class="video-hero-played"></div>
+      <div class="video-hero-hover" hidden></div>
+    </div>
+  </div>
 </div>
 
 <script src="{{ "js/hls.min.js" | relURL }}" defer></script>
@@ -18,13 +32,22 @@
 document.addEventListener('DOMContentLoaded', () => {
   const video = document.querySelector('.video-hero-bg');
   const sound = document.querySelector('[data-video-sound]');
+  const time = document.querySelector('[data-video-time]');
+  const toggle = document.querySelector('[data-video-toggle]');
+  const bar = document.querySelector('[data-video-progress]');
+  const played = bar.querySelector('.video-hero-played');
+  const buffered = bar.querySelector('.video-hero-buffered');
+  const hover = bar.querySelector('.video-hero-hover');
   const src = {{ $c.hls | relURL }};
+  let hls = null;
+  let dragging = false;
+  let userPaused = false;
 
   if (window.Hls && Hls.isSupported()) {
-    const hls = new Hls({maxBufferLength: 20});
+    hls = new Hls({maxBufferLength: 20, maxMaxBufferLength: 30});
     hls.on(Hls.Events.MANIFEST_PARSED, (_, data) => {
       hls.startLevel = data.levels.length - 1;
-      video.play().catch(() => {});
+      if (!userPaused) video.play().catch(() => {});
     });
     hls.loadSource(src);
     hls.attachMedia(video);
@@ -32,16 +55,96 @@ document.addEventListener('DOMContentLoaded', () => {
     video.src = src;
   }
 
+  const fmt = (s) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+  const ratioAt = (x) => {
+    const r = bar.getBoundingClientRect();
+    return Math.min(1, Math.max(0, (x - r.left) / r.width));
+  };
+  const render = (t) => {
+    const d = video.duration || 0;
+    played.style.width = d ? `${(t / d) * 100}%` : '0';
+    time.textContent = `${fmt(t)} / ${fmt(d)}`;
+    bar.setAttribute('aria-valuemax', Math.floor(d));
+    bar.setAttribute('aria-valuenow', Math.floor(t));
+    bar.setAttribute('aria-valuetext', `${fmt(t)} / ${fmt(d)}`);
+  };
+  const seek = (t) => {
+    video.currentTime = Math.min(Math.max(t, 0), video.duration || 0);
+    render(video.currentTime);
+  };
+
+  video.addEventListener('timeupdate', () => !dragging && render(video.currentTime));
+  video.addEventListener('loadedmetadata', () => render(video.currentTime));
+  video.addEventListener('progress', () => {
+    const b = video.buffered;
+    const d = video.duration;
+    for (let i = 0; i < b.length; i++) {
+      if (b.start(i) <= video.currentTime && video.currentTime <= b.end(i) && d) buffered.style.width = `${(b.end(i) / d) * 100}%`;
+    }
+  });
+
+  bar.addEventListener('pointerdown', (e) => {
+    if (!video.duration) return;
+    dragging = true;
+    bar.setPointerCapture(e.pointerId);
+    bar.classList.add('dragging');
+    seek(ratioAt(e.clientX) * video.duration);
+  });
+  bar.addEventListener('pointermove', (e) => {
+    if (!video.duration) return;
+    const r = ratioAt(e.clientX);
+    hover.hidden = false;
+    hover.style.left = `${r * 100}%`;
+    hover.textContent = fmt(r * video.duration);
+    if (dragging) seek(r * video.duration);
+  });
+  const endDrag = () => {
+    dragging = false;
+    bar.classList.remove('dragging');
+    if (!userPaused) video.play().catch(() => {});
+  };
+  bar.addEventListener('pointerup', endDrag);
+  bar.addEventListener('pointercancel', endDrag);
+  bar.addEventListener('pointerleave', () => !dragging && (hover.hidden = true));
+  bar.addEventListener('keydown', (e) => {
+    const step = {ArrowLeft: -5, ArrowRight: 5}[e.key];
+    if (!step) return;
+    e.preventDefault();
+    seek(video.currentTime + step);
+  });
+
+  const setPaused = (paused) => {
+    userPaused = paused;
+    if (paused) video.pause();
+    else video.play().catch(() => {});
+  };
+  toggle.addEventListener('click', () => setPaused(!video.paused));
+  video.addEventListener('click', () => setPaused(!video.paused));
+  const syncToggle = () => {
+    toggle.classList.toggle('paused', video.paused);
+    toggle.setAttribute('aria-label', video.paused ? '播放' : '暂停');
+  };
+  video.addEventListener('play', syncToggle);
+  video.addEventListener('pause', syncToggle);
+
   sound.addEventListener('click', () => {
     video.muted = !video.muted;
     sound.setAttribute('aria-pressed', String(!video.muted));
     sound.querySelector('span').textContent = video.muted ? '开启声音' : '关闭声音';
-    video.play().catch(() => {});
+    if (!userPaused) video.play().catch(() => {});
   });
 
+  let stopped = false;
   new IntersectionObserver(([entry]) => {
-    if (entry.isIntersecting) video.play().catch(() => {});
-    else video.pause();
+    if (entry.isIntersecting) {
+      if (hls && stopped) hls.startLoad();
+      stopped = false;
+      if (!userPaused) video.play().catch(() => {});
+    } else {
+      video.pause();
+      if (hls) hls.stopLoad();
+      stopped = true;
+    }
   }, {threshold: 0.25}).observe(video);
 });
 </script>
