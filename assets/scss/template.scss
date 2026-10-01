@@ -17,3 +17,72 @@
   font-size: 1.125rem;
   line-height: 1.8;
 }
+
+// 首页视频区块：铺满全宽，高度为屏幕减去导航栏，竖屏时按 16:9 完整显示
+.video-hero-section > .container {
+  max-width: none;
+  padding: 0;
+}
+
+.video-hero {
+  position: relative;
+  height: unquote("min(calc(100vh - 70px), 56.25vw)");
+  min-height: 200px;
+  overflow: hidden;
+  background: #060a17;
+}
+
+.video-hero-bg {
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: cover;
+  display: block;
+}
+
+.video-hero-sound {
+  position: absolute;
+  right: 2.5%;
+  bottom: 5%;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  padding: 0.5em 1.1em 0.5em 0.85em;
+  border: 1.5px solid rgba(255, 255, 255, 0.8);
+  border-radius: 999px;
+  background: rgba(6, 10, 23, 0.55);
+  color: #fff;
+  font-size: clamp(0.8rem, 1.2vw, 1rem);
+  font-weight: 700;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+
+  svg {
+    width: 1.4em;
+    height: 1.4em;
+  }
+
+  .icon-on {
+    display: none;
+  }
+
+  &[aria-pressed="true"] {
+    background: #ffc21a;
+    border-color: #ffc21a;
+    color: #0a0f1f;
+
+    .icon-on {
+      display: inline;
+    }
+
+    .icon-off {
+      display: none;
+    }
+  }
+
+  &:hover,
+  &:focus-visible {
+    border-color: #ffc21a;
+  }
+}

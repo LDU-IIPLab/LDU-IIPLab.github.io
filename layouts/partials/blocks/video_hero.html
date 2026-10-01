@@ -1,0 +1,47 @@
+{{/* 首页视频区块：静音循环播放完整宣传片（HLS 边下边播，默认 1080p），右下角声音开关 */}}
+{{ $c := .wcBlock.content }}
+
+<div class="video-hero">
+  <video class="video-hero-bg" autoplay muted loop playsinline preload="auto" poster="{{ $c.poster | relURL }}"></video>
+  <button type="button" class="video-hero-sound" data-video-sound aria-pressed="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/>
+      <path class="icon-off" d="M16 9l5 6M21 9l-5 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path class="icon-on" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+    <span>开启声音</span>
+  </button>
+</div>
+
+<script src="{{ "js/hls.min.js" | relURL }}" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const video = document.querySelector('.video-hero-bg');
+  const sound = document.querySelector('[data-video-sound]');
+  const src = {{ $c.hls | relURL }};
+
+  if (window.Hls && Hls.isSupported()) {
+    const hls = new Hls({maxBufferLength: 20});
+    hls.on(Hls.Events.MANIFEST_PARSED, (_, data) => {
+      hls.startLevel = data.levels.length - 1;
+      video.play().catch(() => {});
+    });
+    hls.loadSource(src);
+    hls.attachMedia(video);
+  } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+    video.src = src;
+  }
+
+  sound.addEventListener('click', () => {
+    video.muted = !video.muted;
+    sound.setAttribute('aria-pressed', String(!video.muted));
+    sound.querySelector('span').textContent = video.muted ? '开启声音' : '关闭声音';
+    video.play().catch(() => {});
+  });
+
+  new IntersectionObserver(([entry]) => {
+    if (entry.isIntersecting) video.play().catch(() => {});
+    else video.pause();
+  }, {threshold: 0.25}).observe(video);
+});
+</script>
