@@ -3,6 +3,16 @@ title: 加入我们
 type: landing
 
 sections:
+  # 宣传片按原始比例完整展示，支持播放/暂停、进度拖拽与声音切换。
+  - block: video_hero
+    content:
+      poster: video/poster.jpg
+      hls: video/promo/master.m3u8
+    design:
+      css_class: join-video-section
+      spacing:
+        padding: ['0', '0', '0', '0']
+
   - block: markdown
     content:
       title: 加入我们
@@ -34,15 +44,5 @@ sections:
     design:
       columns: '1'
       spacing:
-        padding: ['3rem', '0', '1.5rem', '0']
-
-  # 宣传片按原始比例完整展示，支持播放/暂停、进度拖拽与声音切换。
-  - block: video_hero
-    content:
-      poster: video/poster.jpg
-      hls: video/promo/master.m3u8
-    design:
-      css_class: join-video-section
-      spacing:
-        padding: ['0', '0', '3rem', '0']
+        padding: ['2rem', '0', '1.5rem', '0']
 ---
