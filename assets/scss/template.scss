@@ -47,7 +47,12 @@
   }
 }
 
-// 加入我们：视频使用原始 16:9 比例，完整展示画面。
+// 沿用原首页的视频展示：铺满页面宽度，完整保留 16:9 画面。
+.join-video-section > .container {
+  max-width: none;
+  padding: 0;
+}
+
 .video-hero {
   position: relative;
   width: 100%;
