@@ -18,16 +18,40 @@
   line-height: 1.8;
 }
 
-// 首页视频区块：铺满全宽，高度为屏幕减去导航栏，竖屏时按 16:9 完整显示
-.video-hero-section > .container {
-  max-width: none;
-  padding: 0;
+// 半透明导航栏，兼顾浅色与深色主题的文字可读性。
+#navbar-main {
+  background: rgba(255, 255, 255, 0.78);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(127, 127, 127, 0.15);
 }
 
+.dark #navbar-main {
+  background: rgba(20, 24, 32, 0.78);
+}
+
+// 首页轮播延伸到固定导航栏下方，匹配主题的桌面/移动导航高度。
+.home-carousel {
+  margin-top: -70px;
+}
+
+.home-carousel,
+.home-carousel .carousel-item.fullscreen {
+  height: 100vh;
+  height: 100svh;
+}
+
+@media (max-width: 991.98px) {
+  .home-carousel {
+    margin-top: -50px;
+  }
+}
+
+// 加入我们：视频使用原始 16:9 比例，完整展示画面。
 .video-hero {
   position: relative;
-  height: unquote("min(calc(100vh - 70px), 56.25vw)");
-  min-height: 200px;
+  width: 100%;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   background: #060a17;
 }
@@ -36,7 +60,7 @@
   width: 100%;
   height: 100%;
   max-height: none;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
 }
 
@@ -49,7 +73,7 @@
   justify-content: space-between;
   gap: 0.6rem 1rem;
   // 进度条与视频画面内置进度线（距底 26/1080、左右 60/1920）对齐并将其覆盖
-  padding: 3rem 3.125% calc(1.35vw - 1px);
+  padding: 3rem 3.125% 1.35%;
   background: linear-gradient(0deg, rgba(6, 10, 23, 0.7), transparent);
 }
 

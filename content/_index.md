@@ -2,21 +2,86 @@
 # 主页维护说明：
 # 1. 每个 `block` 对应一个 Hugo Blox 内置区块，调整顺序只需移动整个区块。
 # 2. 新闻会自动读取 content/news/ 下的内容，无需在主页重复维护。
-# 3. 图片统一放在 assets/media/，这里只填写相对文件名；首屏视频放在 static/video/。
+# 3. 图片统一放在 assets/media/，这里只填写相对文件名。
 title:
 type: landing
 
 sections:
-  # 首屏：静音循环播放完整宣传片（HLS 边下边播，默认 1080p），右下角可开启声音。
-  # 视频文件位于 static/video/，由宣传片工程 iiplab-promo-video 的 scripts/web_hls.sh 生成。
-  - block: video_hero
+  # 首屏：使用 Hugo Blox slider 展示七张代表性照片。
+  - block: slider
     content:
-      poster: video/poster.jpg
-      hls: video/promo/master.m3u8
+      slides:
+        - title:
+          align: center
+          background:
+            image:
+              filename: slider/20260718.jpg
+              size: cover
+              position: center
+              parallax: false
+            position: center
+        - title:
+          align: center
+          background:
+            image:
+              filename: slider/20250819.jpg
+              size: cover
+              position: center
+              parallax: false
+            position: center
+        - title:
+          align: center
+          background:
+            image:
+              filename: slider/20250420.jpg
+              size: cover
+              position: center
+              parallax: false
+            position: center
+        - title:
+          align: center
+          background:
+            image:
+              filename: slider/20250419.jpg
+              size: cover
+              position: center
+              parallax: false
+            position: center
+        - title:
+          align: center
+          background:
+            image:
+              filename: slider/20240713.jpg
+              size: cover
+              position: center
+              parallax: false
+            position: center
+        - title:
+          align: center
+          background:
+            image:
+              filename: slider/20230625.jpg
+              size: cover
+              position: center
+              parallax: false
+            position: center
+        - title:
+          align: center
+          background:
+            image:
+              filename: slider/20230420.png
+              size: cover
+              position: center
+              parallax: false
+            position: center
     design:
-      css_class: video-hero-section
+      css_class: home-carousel
       spacing:
         padding: ['0', '0', '0', '0']
+      # 当前 Hugo Blox 版本依赖全屏模式为 slider 提供稳定高度。
+      is_fullscreen: true
+      loop: true
+      interval: 5000
 
   # 新闻动态：自动读取 content/news/，新增新闻后主页会自动更新。
   - block: collection

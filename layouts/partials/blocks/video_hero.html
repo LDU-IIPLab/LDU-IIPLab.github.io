@@ -1,8 +1,8 @@
-{{/* 首页视频区块：静音循环播放完整宣传片（HLS 边下边播，默认 1080p），播放/暂停、可拖拽进度条、声音开关 */}}
+{{/* 加入我们宣传片区块：静音循环播放完整宣传片（HLS 边下边播，默认 1080p），播放/暂停、可拖拽进度条、声音开关 */}}
 {{ $c := .wcBlock.content }}
 
 <div class="video-hero">
-  <video class="video-hero-bg" autoplay muted loop playsinline preload="auto" poster="{{ $c.poster | relURL }}"></video>
+  <video class="video-hero-bg" autoplay muted loop playsinline preload="metadata" aria-label="实验室宣传片" poster="{{ $c.poster | relURL }}"></video>
   <div class="video-hero-controls">
     <button type="button" class="video-hero-toggle" data-video-toggle aria-label="暂停">
       <svg viewBox="0 0 24 24" aria-hidden="true">

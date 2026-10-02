@@ -31,6 +31,18 @@ sections:
     #     欢迎符合以上要求、对食品计算与 Agent、具身智能相关研究方向感兴趣的同学联系调剂。
 
     #     有意向的同学请填写[2026 年鲁东大学智能信息处理实验室调剂申请表](https://docs.qq.com/form/page/DUUdUTWRoZmdyZmdL)，并添加微信 `15753724366`，注明个人信息。
-    # design:
-    #   columns: '1'
+    design:
+      columns: '1'
+      spacing:
+        padding: ['3rem', '0', '1.5rem', '0']
+
+  # 宣传片按原始比例完整展示，支持播放/暂停、进度拖拽与声音切换。
+  - block: video_hero
+    content:
+      poster: video/poster.jpg
+      hls: video/promo/master.m3u8
+    design:
+      css_class: join-video-section
+      spacing:
+        padding: ['0', '0', '3rem', '0']
 ---
