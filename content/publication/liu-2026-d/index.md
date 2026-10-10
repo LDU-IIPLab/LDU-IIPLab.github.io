@@ -13,4 +13,6 @@ publishDate: '2026-10-10T07:43:09.320867Z'
 publication_types:
 - article-journal
 publication: '*Foods*'
+doi: 10.3390/foods15193418
+url_code: 'https://github.com/bishi17/D-pFoodreq'
 ---
