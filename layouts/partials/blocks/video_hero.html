@@ -1,8 +1,11 @@
-{{/* 加入我们宣传片区块：静音循环播放完整宣传片（HLS 边下边播，默认 1080p），播放/暂停、可拖拽进度条、声音开关、全屏播放 */}}
+{{/* 加入我们宣传片区块：自动循环播放完整宣传片（WebM 优先，MP4 兜底），播放/暂停、可拖拽进度条、声音开关 */}}
 {{ $c := .wcBlock.content }}
 
 <div class="video-hero">
-  <video class="video-hero-bg" autoplay muted loop playsinline preload="metadata" aria-label="实验室宣传片" poster="{{ $c.poster | relURL }}"></video>
+  <video class="video-hero-bg" autoplay muted loop playsinline preload="metadata" aria-label="实验室宣传片" poster="{{ $c.poster | relURL }}">
+    <source src="{{ $c.webm | relURL }}" type="video/webm">
+    <source src="{{ $c.mp4 | relURL }}" type="video/mp4">
+  </video>
   <div class="video-hero-controls">
     <button type="button" class="video-hero-toggle" data-video-toggle aria-label="暂停">
       <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -19,12 +22,6 @@
       </svg>
       <span>开启声音</span>
     </button>
-    <button type="button" class="video-hero-fullscreen" data-video-fullscreen aria-label="全屏播放" aria-pressed="false" title="全屏播放">
-      <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path class="icon-enter" d="M8 3H3v5M16 3h5v5M21 16v5h-5M8 21H3v-5"/>
-        <path class="icon-exit" d="M3 8h5V3M16 3v5h5M21 16h-5v5M8 21v-5H3"/>
-      </svg>
-    </button>
     <div class="video-hero-progress" data-video-progress role="slider" tabindex="0" aria-label="播放进度" aria-valuemin="0" aria-valuemax="0" aria-valuenow="0">
       <div class="video-hero-buffered"></div>
       <div class="video-hero-played"></div>
@@ -33,12 +30,9 @@
   </div>
 </div>
 
-<script src="{{ "js/hls.min.js" | relURL }}" defer></script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const video = document.querySelector('.video-hero-bg');
-  const player = video.closest('.video-hero');
-  const fullscreen = player.querySelector('[data-video-fullscreen]');
   const sound = document.querySelector('[data-video-sound]');
   const time = document.querySelector('[data-video-time]');
   const toggle = document.querySelector('[data-video-toggle]');
@@ -46,22 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const played = bar.querySelector('.video-hero-played');
   const buffered = bar.querySelector('.video-hero-buffered');
   const hover = bar.querySelector('.video-hero-hover');
-  const src = {{ $c.hls | relURL }};
-  let hls = null;
   let dragging = false;
   let userPaused = false;
-
-  if (window.Hls && Hls.isSupported()) {
-    hls = new Hls({maxBufferLength: 20, maxMaxBufferLength: 30});
-    hls.on(Hls.Events.MANIFEST_PARSED, (_, data) => {
-      hls.startLevel = data.levels.length - 1;
-      if (!userPaused) video.play().catch(() => {});
-    });
-    hls.loadSource(src);
-    hls.attachMedia(video);
-  } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-    video.src = src;
-  }
 
   const fmt = (s) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
   const ratioAt = (x) => {
@@ -142,56 +122,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!userPaused) video.play().catch(() => {});
   });
 
-  const fullscreenElement = () => document.fullscreenElement || document.webkitFullscreenElement;
-  const isFullscreen = () => fullscreenElement() === player || !!video.webkitDisplayingFullscreen;
-  const syncFullscreen = () => {
-    const active = isFullscreen();
-    const label = active ? '退出全屏' : '全屏播放';
-    fullscreen.setAttribute('aria-pressed', String(active));
-    fullscreen.setAttribute('aria-label', label);
-    fullscreen.title = label;
-  };
-  fullscreen.hidden = !(player.requestFullscreen || player.webkitRequestFullscreen || video.webkitEnterFullscreen);
-  fullscreen.addEventListener('click', async () => {
-    try {
-      if (fullscreenElement() === player) {
-        if (document.exitFullscreen) await document.exitFullscreen();
-        else document.webkitExitFullscreen();
-      } else if (video.webkitDisplayingFullscreen && video.webkitExitFullscreen) {
-        video.webkitExitFullscreen();
-      } else if (player.requestFullscreen) {
-        await player.requestFullscreen();
-      } else if (player.webkitRequestFullscreen) {
-        player.webkitRequestFullscreen();
-      } else if (video.webkitEnterFullscreen) {
-        video.webkitEnterFullscreen();
-      }
-      syncFullscreen();
-    } catch (_) {
-      if (!isFullscreen() && video.webkitEnterFullscreen) {
-        try {
-          video.webkitEnterFullscreen();
-          return;
-        } catch (_) {}
-      }
-      fullscreen.title = '当前浏览器未允许全屏播放';
-    }
-  });
-  document.addEventListener('fullscreenchange', syncFullscreen);
-  document.addEventListener('webkitfullscreenchange', syncFullscreen);
-  video.addEventListener('webkitbeginfullscreen', syncFullscreen);
-  video.addEventListener('webkitendfullscreen', syncFullscreen);
-
-  let stopped = false;
   new IntersectionObserver(([entry]) => {
-    if (entry.isIntersecting || isFullscreen()) {
-      if (hls && stopped) hls.startLoad();
-      stopped = false;
+    if (entry.isIntersecting) {
       if (!userPaused) video.play().catch(() => {});
     } else {
       video.pause();
-      if (hls) hls.stopLoad();
-      stopped = true;
     }
   }, {threshold: 0.25}).observe(video);
 });

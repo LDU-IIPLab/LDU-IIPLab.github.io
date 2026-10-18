@@ -18,18 +18,6 @@
   background: #060a17;
 }
 
-.video-hero:fullscreen {
-  width: 100%;
-  height: 100%;
-  aspect-ratio: auto;
-}
-
-.video-hero:-webkit-full-screen {
-  width: 100%;
-  height: 100%;
-  aspect-ratio: auto;
-}
-
 .video-hero-bg {
   width: 100%;
   height: 100%;
@@ -55,8 +43,7 @@
   cursor: pointer;
 }
 
-.video-hero-toggle,
-.video-hero-fullscreen {
+.video-hero-toggle {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -98,24 +85,6 @@
     }
   }
 
-}
-
-.video-hero-fullscreen {
-  flex-shrink: 0;
-
-  .icon-exit {
-    display: none;
-  }
-
-  &[aria-pressed="true"] {
-    .icon-enter {
-      display: none;
-    }
-
-    .icon-exit {
-      display: inline;
-    }
-  }
 }
 
 @media (max-width: 575.98px) {
