@@ -10,6 +10,24 @@
   line-height: 1.8;
 }
 
+// 研究方向：两个方向卡片并排显示，窄屏恢复单列。
+.research-grid .row > .col-12:not(.section-heading) {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.research-grid .card-simple {
+  margin-top: 0;
+}
+
+@media (max-width: 991.98px) {
+  .research-grid .row > .col-12:not(.section-heading) {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
 .video-hero {
   position: relative;
   width: 100%;

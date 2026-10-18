@@ -18,5 +18,6 @@ sections:
       sort_ascending: true
     design:
       view: card
-      columns: '2'
+      columns: '1'
+      css_class: research-grid
 ---
