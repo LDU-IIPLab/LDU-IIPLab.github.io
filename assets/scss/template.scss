@@ -1,3 +1,9 @@
+// 使页面头部对齐与小部件页面头部对齐一致
+.universal-wrapper h1 {
+  text-align: center;
+  width: 100%;
+}
+
 // 首页底部实验室介绍
 .laboratory-intro p {
   font-size: 1.125rem;
