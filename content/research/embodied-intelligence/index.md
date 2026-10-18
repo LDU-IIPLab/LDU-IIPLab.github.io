@@ -2,6 +2,7 @@
 title: 具身智能
 summary: 面向复杂三维环境中的自主导航与智能交互，研究视觉感知、语言理解、空间认知、路径规划与行动决策等关键技术。
 draft: false
+weight: 2
 image:
   focal_point: Center
   preview_only: false

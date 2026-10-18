@@ -2,6 +2,7 @@
 title: 食品计算与智能体
 summary: 面向食品、营养与健康场景，研究食品视觉计算、多模态食品理解、知识增强与领域智能体技术。
 draft: false
+weight: 1
 image:
   focal_point: Center
   preview_only: false
