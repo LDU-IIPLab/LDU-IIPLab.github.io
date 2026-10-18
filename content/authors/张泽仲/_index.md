@@ -23,8 +23,8 @@ organizations:
 bio:
 
 interests:
-  - Multi-Modal Lifelong Navigation
   - Embodied AI
+  - Embodied Navigation
 
 education:
   courses:

@@ -23,8 +23,8 @@ organizations:
 bio:
 
 interests:
-  - Object Goal Navigation
   - Embodied AI
+  - Embodied Navigation
 
 education:
   courses:

@@ -24,7 +24,7 @@ bio:
 
 interests:
   - Embodied AI
-  - Multi-Object Navigation
+  - Embodied Navigation
 
 education:
   courses:

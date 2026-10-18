@@ -23,7 +23,8 @@ organizations:
 bio:
 
 interests:
-  -
+  - Embodied AI
+  - Embodied Navigation
 
 education:
   courses:
