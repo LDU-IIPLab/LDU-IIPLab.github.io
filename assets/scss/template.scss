@@ -18,35 +18,6 @@
   line-height: 1.8;
 }
 
-// 半透明导航栏，兼顾浅色与深色主题的文字可读性。
-#navbar-main {
-  background: rgba(255, 255, 255, 0.78);
-  -webkit-backdrop-filter: blur(14px);
-  backdrop-filter: blur(14px);
-  border-bottom: 1px solid rgba(127, 127, 127, 0.15);
-}
-
-.dark #navbar-main {
-  background: rgba(20, 24, 32, 0.78);
-}
-
-// 首页轮播延伸到固定导航栏下方，匹配主题的桌面/移动导航高度。
-.home-carousel {
-  margin-top: -70px;
-}
-
-.home-carousel,
-.home-carousel .carousel-item.fullscreen {
-  height: 100vh;
-  height: 100svh;
-}
-
-@media (max-width: 991.98px) {
-  .home-carousel {
-    margin-top: -50px;
-  }
-}
-
 // 沿用原首页的视频展示：铺满页面宽度，完整保留 16:9 画面。
 .join-video-section > .container {
   max-width: none;

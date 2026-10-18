@@ -7,7 +7,7 @@ title:
 type: landing
 
 sections:
-  # 首屏：使用 Hugo Blox slider 展示七张代表性照片。
+  # 首屏：使用 Hugo Blox slider 展示六张代表性照片。
   - block: slider
     content:
       slides:
@@ -75,7 +75,6 @@ sections:
               parallax: false
             position: center
     design:
-      css_class: home-carousel
       spacing:
         padding: ['0', '0', '0', '0']
       # 当前 Hugo Blox 版本依赖全屏模式为 slider 提供稳定高度。
