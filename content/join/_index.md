@@ -43,7 +43,6 @@ sections:
       webm: video/promo.webm
       mp4: video/promo.mp4
     design:
-      css_class: join-video-section
       spacing:
         padding: ['0', '0', '3rem', '0']
 ---
