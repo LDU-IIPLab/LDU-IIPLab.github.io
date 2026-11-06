@@ -31,7 +31,7 @@ education:
       institution: 鲁东大学
       year: 在读
     - course: 计算机科学与技术, 工学学士
-      institution: 安徽师范大学皖江学院
+      institution: 芜湖学院
       year: 2026
 
 # Social/Academic Networking
@@ -70,4 +70,4 @@ user_groups:
 ---
 
 
-陶亚男，本科毕业于安徽师范大学皖江学院计算机科学与技术专业，现就读于鲁东大学计算机科学与技术学硕。
+陶亚男，本科毕业于芜湖学院计算机科学与技术专业，现就读于鲁东大学计算机科学与技术学硕。
